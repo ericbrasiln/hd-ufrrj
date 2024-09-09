@@ -71,9 +71,9 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- HOBSBAWM, Eric. A Era do Capital. Rio de Janeiro, Paz e Terra, 2004. “O mundo unificado”, Pp. 63-82.
-- FERGUSON, Niall. A praça e a torre. Redes, hierarquias e a luta pelo poder global. São Paulo, Planeta do Brasil, 2018. Pp. 11-35
-- SILVEIRA, P. T. DA. A arqueologia de um nome. In: História, técnica e novas mídias: reflexões sobre a história na era digital. Tese de doutorado. Porto Alegre: UFRGS, 2018. pp 28-62
+- [HOBSBAWM, Eric. A Era do Capital. Rio de Janeiro, Paz e Terra, 2004. “O mundo unificado”, Pp. 63-82.](biblio/hobsbawm.pdf)
+- [FERGUSON, Niall. A praça e a torre. Redes, hierarquias e a luta pelo poder global. São Paulo, Planeta do Brasil, 2018. Pp. 11-35](biblio/ferguson.pdf)
+- [SILVEIRA, P. T. DA. A arqueologia de um nome. In: História, técnica e novas mídias: reflexões sobre a história na era digital. Tese de doutorado. Porto Alegre: UFRGS, 2018. pp 28-62](https://www.lume.ufrgs.br/handle/10183/189249)
 
 ### Semana 4
 
