@@ -1,0 +1,80 @@
+---
+title: "Fontes digitais, coleções e plataformas online"
+subtitle: "IM-1256 - Introdução à História Digital"
+author: Eric Brasil
+date: 2024-09-24
+lang: pt-br
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    #logo: logo.png
+    #css: styles.css
+    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+---
+
+# 1. Abundância e Escassez na Era Digital {.center}
+
+![](https://github.com/ericbrasiln/ferramentas_digitais_UNILAB/raw/master/docs/gifs/lib.gif)
+
+---
+
+## **Transformação das Fontes Históricas** {.center}
+
+  - A digitalização mudou profundamente o acesso às fontes históricas, trazendo uma vasta abundância de materiais.
+  - O volume exponencial de fontes digitais transformou as práticas de pesquisa, criando novos desafios epistemológicos e metodológicos.
+
+## **Fontes Digitais e a Rematerialização**: {.center}
+
+  - Quando um documento histórico é digitalizado, ocorre uma "rematerialização" — uma mudança que afeta a maneira como interagimos com o documento.
+  - As fontes digitalizadas adquirem novas propriedades, como metadados e reprodutibilidade, que alteram a relação do historiador com o material.
+  - Ao mesmo tempo que perdem outras características, como a textura do papel, a caligrafia e um série de características organolépticas.
+
+---
+
+## **Vantagens das Fontes Digitais?** {.center}
+
+---
+
+## **Desafios da Abundância**: {.center}
+
+  - **Fragmentação da Pesquisa**: A busca automatizada por palavras-chave pode levar a uma leitura fragmentada e superficial, conforme alertado por **Tim Hitchcock (2013)** e **Laura Putnam (2016)**.
+  - **Dataficação**: A digitalização transforma as fontes em "dados" e "metadados", permitindo uma busca mais rápida, mas também limitando a compreensão total do contexto.
+
+---
+
+## **Epistemologia na Era Digital**: {.center}
+
+- O uso de ferramentas digitais, como na **Hemeroteca Digital Brasileira (HDB)**, permite ao historiador fazer novas perguntas e obter respostas que seriam impossíveis com métodos analógicos?
+- As interfaces digitais influenciam diretamente a maneira como o conhecimento histórico é produzido, alterando a heurística e a hermenêutica tradicionais?
+
+---
+
+## O Caso da Hemeroteca Digital da Biblioteca Nacional {.center}
+
+![](https://ericbrasil.com.br/ferramentas_digitais_UNILAB/imagens/HDB/hdb-r1.png)
+
+---
+
+## **Repositório online de fontes primárias**: {.center}
+
+  - A Hemeroteca Digital Brasileira (HDB) da Biblioteca Nacional é um repositório que disponibiliza jornais, revistas, almanaques e anuários digitalizados. Possui periódicos publicados entre o século XVI e XXI, de diversas regiões do Brasil e do mundo.
+
+---
+
+## **Ferramentas de Busca**: {.center}
+
+  - A HDB oferece uma interface de busca avançada, com opções de pesquisa por **periódico**, **período** e **local**, facilitando a busca por assuntos e eventos em publicações específicas.
+  - A ferramenta permite navegar por ocorrências de termos-chave, mostrando o termo destacado nas edições selecionadas, o que simplifica a pesquisa, porém apresenta desafios como a fragmentação e a leitura parcial das fontes.
+
+---
+
+## **Impacto Epistemológico e Metodológico**: {.center}
+
+- Padrões de resultados;
+- OCR e a qualidade da digitalização;
+- Transparência, documentação e acesso aberto.

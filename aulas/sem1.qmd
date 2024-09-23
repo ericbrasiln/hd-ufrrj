@@ -1,0 +1,63 @@
+---
+title: "Aula 1 - Introdução à História Digital"
+subtitle: "O impacto da tecnologia digital sobre a produção e circulação do conhecimento histórico"
+author: Alexandre Fortes e Eric Brasil
+date: "2024/08/27"
+lang: pt-br
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    logo: logo.png
+    #css: styles.css
+    footer: "IM-1256 - Introdução à História Digital | <a href=https://ericbrasil.com.br/hd-ufrrj/>Acesse o material da disciplina</a>"
+---
+
+## 1. Apresentação dos Professores {.center}
+
+---
+
+## 2. Cronograma e Ementa da Disciplina {.center}
+
+- Disponível em: [https://ericbrasil.com.br/hd-ufrrj/ementa](https://ericbrasil.com.br/hd-ufrrj/ementa)
+- Discussão sobre o cronograma
+
+---
+
+## 3. Apresentação dos Estudantes {.center}
+
+- Trajetória acadêmica
+- Motivos para se matricular no curso
+
+---
+
+## 4. Disciplina na prática {.center}
+
+- Debate de textos + oficinas práticas
+- Avaliação?
+- Ferramentas e materiais disponíveis no github: [github.com/ericbrasiln/hd-ufrrj](https://ericbrasil.com.br/hd-ufrrj)
+
+---
+
+## 5. Apresentação Geral do Texto Básico {.center}
+
+- **Texto**: FORTES, Alexandre; ALVIM, Leandro Guimarães Marques. "Evidências, códigos e classificações: o ofício do historiador e o mundo digital." Esboços: histórias em contextos globais, v. 27, n. 45, p. 207–227, 2020.
+- [Link para o texto](https://doi.org/10.5007/2175-7976.2020.e68270)
+
+---
+
+## 6. Discussão {.center}
+
+- Impacto das tecnologias digitais na história
+- Reflexões sobre a prática do historiador
+
+---
+
+## 7. Encerramento {.center}
+
+- Próxima aula: Ferramentas digitais para historiadores
+- Dúvidas e sugestões
