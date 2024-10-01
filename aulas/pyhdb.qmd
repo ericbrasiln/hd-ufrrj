@@ -1,0 +1,122 @@
+---
+title: "pyHDB - Pesquisa, coleta e organização de dados com Python "
+subtitle: "IM-1256 - Introdução à História Digital"
+author: Eric Brasil
+date: 2024-10-01
+lang: pt-br
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    logo: https://raw.githubusercontent.com/ericbrasiln/pyHDB/main/img/banner.png
+    #css: styles.css
+    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+---
+
+## Introdução à pyHDB {.center}
+
+- Ferramenta para pesquisa e coleta de dados na Hemeroteca Digital Brasileira (HDB)
+- Construída para facilitar a extração de dados históricos por meio de web scraping
+- Desenvolvida para aumentar a reprodutibilidade e a organização de pesquisas históricas
+
+---
+
+## A Prática da Pesquisa com a pyHDB {.center}
+
+- **Registro metodológico**: Criação de logs detalhados das pesquisas
+- **Reprodutibilidade**: Garantia de que outros pesquisadores possam repetir a pesquisa
+- **Análise de metadados**: Extração de metadados essenciais das fontes pesquisadas
+
+---
+
+## Prática I: Escrevendo o Código {.center}
+
+- Introdução ao web scraping
+- Ferramentas escolhidas:
+  - **Python**
+  - **Selenium**
+- Compreendendo a estrutura da Hemeroteca Digital Brasileira (HDB)
+
+---
+
+## Prática II: Testando a Ferramenta pyHDB {.center}
+
+- O que a ferramenta faz?
+- Pesquisa em múltiplos jornais
+- Pesquisa em um jornal específico
+- Como faz isso? Python, Selenium, Chrome
+
+---
+
+## Preparando para a Instalação {.center}
+
+1. Instale o **Python**: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Instale o **Chrome**: [https://www.google.com.br/chrome/](https://www.google.com.br/chrome/)
+3. Faça o download do repositório **pyHDB**: [https://github.com/ericbrasiln/pyHDB/](https://github.com/ericbrasiln/pyHDB/)
+
+---
+
+![Acesse o repositório e clique em *Code*](https://raw.githubusercontent.com/ericbrasiln/pyHDB/main/img/gh_1.png)
+
+---
+
+![Clique em *Download ZIP*](https://raw.githubusercontent.com/ericbrasiln/pyHDB/main/pyHDB-docs/docs/img/gh_2.png)
+
+---
+
+## Instalação da pyHDB {.center}
+
+1. Descompacte o arquivo baixado no diretório de sua preferência;
+2. Abra o Terminal ou PowerShell e navegue até a pasta do repositório:
+
+   ```bash
+   cd caminho/para/pyHDB
+   ```
+3. Instale as dependências:
+
+   ```bash
+   pip install -r src/requirements.txt
+   ```
+---
+
+## Executando a pyHDB {.center}
+
+4. Execute o script para pesquisa em múltiplos jornais:
+
+   ```bash
+   python src/pyHDB.py
+   ```
+5. Execute o script para pesquisa em um jornal específico:
+
+   ```bash
+   python src/pyHDB_acervos.py
+   ```
+
+---
+
+## Prática III: Pesquisando com a pyHDB {.center}
+
+- Pesquisa em múltiplos jornais
+- Pesquisa em um jornal específico
+- Entendendo erros no processo e limites da ferramenta
+
+---
+
+## Analisando os Resultados {.center}
+
+- Geração de arquivos CSV contendo metadados das fontes pesquisadas
+- Relatórios de pesquisa automatizados
+- Download de páginas de jornais para análise posterior
+
+---
+
+## Conclusão {.center}
+
+- Revisão das principais funcionalidades da ferramenta
+- Discussão sobre limitações e possíveis melhorias
+- Aplicações futuras da pyHDB para pesquisas históricas
+
