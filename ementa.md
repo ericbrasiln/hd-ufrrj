@@ -136,7 +136,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 **Bibliografia Básica**
 
 - BLOCH, Marc. Apologia da história ou o ofício do historiador. Rio de Janeiro: Jorge Zahar, 2001. Pp. 51-87
-- ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. [s. l.], 2022. Disponível em: https://dspace.uevora.pt/rdpc/handle/10174/32165. Acesso em: 4 out. 2024.
+- ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. [s. l.], 2022. Disponível em: [https://dspace.uevora.pt/rdpc/handle/10174/32165](https://dspace.uevora.pt/rdpc/handle/10174/32165). Acesso em: 4 out. 2024.
 
 ### Semana 8
 
@@ -146,7 +146,8 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- Materiais a definir.
+- Megan S. Kane, "Corpus Analysis with spaCy," Programming Historian 12 (2023), [https://doi.org/10.46430/phen0113](https://doi.org/10.46430/phen0113).
+- Andrew Akhlaghi, "OCR and Machine Translation," Programming Historian 10 (2021), [https://doi.org/10.46430/phen0091](https://doi.org/10.46430/phen0091).
 
 ### Semana 9
 
@@ -156,8 +157,8 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- BONALDO, Rodrigo Bragio. As palavras e os tokens: Projeção vetorial aplicada ao estudo da semântica dos tempos históricos. Revista de Teoria da História, [s. l.], v. 27, n. 1, p. 7–50, 2024. 
-- GILARDI, Fabrizio; ALIZADEH, Meysam; KUBLI, Maël. ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks. [S. l.]: arXiv, 2023. Disponível em: http://arxiv.org/abs/2303.15056. Acesso em: 4 abr. 2023.
+- BONALDO, Rodrigo Bragio. As palavras e os tokens: Projeção vetorial aplicada ao estudo da semântica dos tempos históricos. Revista de Teoria da História, [s. l.], v. 27, n. 1, p. 7–50, 2024. DOI: [https://doi.org/10.5216/rth.v27i1.79370](https://doi.org/10.5216/rth.v27i1.79370). 
+- GILARDI, Fabrizio; ALIZADEH, Meysam; KUBLI, Maël. ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks. [S. l.]: arXiv, 2023. Disponível em: [http://arxiv.org/abs/2303.15056](http://arxiv.org/abs/2303.15056). Acesso em: 4 abr. 2023.
 
 ### Semana 10
 
@@ -177,7 +178,8 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- Materiais a definir.
+- KELLY T. M., Teaching History in the Digital Age, Book Collections on Project MUSE (University of Michigan Press, 2013). Preface, v-ix; Introduction, 1-13.
+- CORDEIRO, Leonardo Zenha; COSTA, Renato Pinheiro da. Problematizações das tecnologias digitais na formação do professor de história no contexto amazônico. Esboços: histórias em contextos globais, [s. l.], v. 27, n. 45, p. 228–248, 2020. Disponível em: [https://doi.org/10.5007/2175-7976.2020.e68318](https://doi.org/10.5007/2175-7976.2020.e68318).
 
 ### Semana 12
 
@@ -187,7 +189,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- Materiais a definir.
+- Eric Brasil, "Git como ferramenta metodológica em projetos de História (parte 1)", Programming Historian em português 3 (2023), [https://doi.org/10.46430/phpt0045](https://doi.org/10.46430/phpt0045).
 
 ### Semana 13
 
