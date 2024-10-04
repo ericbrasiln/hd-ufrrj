@@ -135,7 +135,8 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- Materiais a definir.
+- BLOCH, Marc. Apologia da história ou o ofício do historiador. Rio de Janeiro: Jorge Zahar, 2001. Pp. 51-87
+- ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. [s. l.], 2022. Disponível em: https://dspace.uevora.pt/rdpc/handle/10174/32165. Acesso em: 4 out. 2024.
 
 ### Semana 8
 
@@ -155,7 +156,8 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- Materiais a definir.
+- BONALDO, Rodrigo Bragio. As palavras e os tokens: Projeção vetorial aplicada ao estudo da semântica dos tempos históricos. Revista de Teoria da História, [s. l.], v. 27, n. 1, p. 7–50, 2024. 
+- GILARDI, Fabrizio; ALIZADEH, Meysam; KUBLI, Maël. ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks. [S. l.]: arXiv, 2023. Disponível em: http://arxiv.org/abs/2303.15056. Acesso em: 4 abr. 2023.
 
 ### Semana 10
 
