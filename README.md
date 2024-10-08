@@ -33,6 +33,7 @@ A ementa completa da disciplina, incluindo os conteúdos programáticos, bibliog
 ## Recursos e Materiais
 
 - Acesse a sala virtual da disciplina: [Clique aqui](https://meet.jit.si/Intro_Hist_Dig_PPGIHD)
+- Lista de apresentações usadas nas aulas: [Clique aqui](https://ericbrasil.com.br/hd-ufrrj/aulas)
 - [Repositório GitHub](https://github.com/ericbrasiln/hd-ufrrj)
 
 ## Conteúdo Programático
