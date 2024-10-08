@@ -592,6 +592,20 @@ Eric Brasil
 <li class="fragment">Análise textual (gramática, semântica, lexicográfica, etc.)</li>
 <li class="fragment">NER (Name Entity Recognition) - Nomes, entidades, etc.</li>
 </ul>
+<aside class="notes">
+<p>Processamento de Linguagem Natural (NLP) é uma área da inteligência artificial que foca na interação entre computadores e linguagem humana. O objetivo do NLP é permitir que as máquinas entendam, interpretem e respondam à linguagem natural de forma útil. Isso inclui tarefas como tradução automática, análise de sentimentos, resumo de textos, entre outras. Em Humanidades Digitais, o NLP é usado para processar grandes volumes de textos históricos e literários, ajudando a extrair informações e padrões que seriam difíceis de identificar manualmente.</p>
+<p>Reconhecimento de Entidades Nomeadas (NER) é uma tarefa dentro do NLP que consiste em identificar e classificar automaticamente “entidades” dentro de um texto. Entidades podem ser nomes próprios, datas, lugares, eventos e outros tipos de informações específicas. Por exemplo, em um texto histórico, um sistema de NER pode identificar nomes de figuras históricas, locais de eventos importantes, e datas, organizando essas informações de maneira estruturada. Isso é extremamente útil para pesquisas históricas, pois facilita a extração de dados relevantes de grandes corpora.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="produção-de-conhecimento-histórico-por-computadores" class="slide level2 center">
 <h2>Produção de conhecimento histórico por computadores?</h2>
@@ -606,6 +620,137 @@ Eric Brasil
 <section id="exemplo-de-uso-de-nlp-e-ner" class="slide level2 center">
 <h2>Exemplo de uso de NLP e NER</h2>
 <p>ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. 2022. Disponível em: <a href="https://dspace.uevora.pt/rdpc/handle/10174/32165">https://dspace.uevora.pt/rdpc/handle/10174/32165</a>.</p>
+</section>
+<section id="section-23" class="slide level2 center">
+<h2></h2>
+<p>Buscar informações em textos através de Natural Language Processing (NLP) utilizando Named Entity Recognition (NER).</p>
+<blockquote>
+<p>“It corresponds to the recognition and categorization of entities mentioned in a text sample or corpus. Examples of named entities are proper names, events, places, temporal and quantitative data, etc. These extracted entities can then be further mapped to a knowledge base (KB), in special a Digital Humanities KB (DHKB) [2]. These DHKBs allow for the identification and combination of existing knowledge about historical facts from different sources.” (Zilio et al., 2022, p.&nbsp;2)</p>
+</blockquote>
+</section>
+<section id="section-24" class="slide level2 center">
+<h2></h2>
+<p>O que é Digital Humanities knowledge base? Ver:</p>
+<p>“Golub, K., Liu, Y.H.: Information and knowledge organisation in digital humanities: Global perspectives (2022)” (Zilio et al., 2022, p.&nbsp;9)</p>
+<aside class="notes">
+<p>DHKB (Digital Humanities Knowledge Base) se refere a uma base de conhecimento especializada para as Humanidades Digitais. Segundo Zilio et al.&nbsp;(2022), essas bases de conhecimento permitem a identificação e combinação de conhecimentos já existentes sobre fatos históricos de diferentes fontes. A ideia é que, ao reconhecer e categorizar entidades nomeadas em um corpus (como nomes próprios, eventos, lugares, dados temporais e quantitativos), essas entidades possam ser mapeadas para uma base de conhecimento, auxiliando na sistematização e no cruzamento de informações para a pesquisa histórica e de humanidades.</p>
+<p>Essa abordagem foi fundamentada em conceitos como os discutidos no livro de Golub e Liu (2022) sobre organização de informações e conhecimento em Humanidades Digitais, onde o uso de ontologias, enriquecimento semântico e bases de dados interligadas (como o Linked Data) desempenham papéis centrais na organização e recuperação de conhecimento em contextos digitais.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="objetivo-do-artigo" class="slide level2 center">
+<h2>Objetivo do artigo:</h2>
+<p>Identificar um sistema de NER para o português que funcione para extração de informação de textos médicos do século XVIII.</p>
+</section>
+<section id="método-p.2" class="slide level2 center">
+<h2>Método (p.2)</h2>
+<ol type="1">
+<li class="fragment">Criação de um “gold standard” baseado em um transcição modernizada de três amostras de textos; e em seguida avaliaram o sistema de extração de entidades nomeadas contra esse “gold standard”;</li>
+<li class="fragment">Comparação enter o sistema de extração de NE nas transcrições modernizadas com a extração de NE nas transcrições “não-modernizadas”;</li>
+<li class="fragment">Depois de avaliar o melhor sistema de NER baeado nesses dois experimentos, o objetivo foi conduzir uma extração completa de entidades nomeadas do <em>corpus</em> médico do século XVIII.</li>
+</ol>
+</section>
+<section id="related-work" class="slide level2 center">
+<h2>Related work</h2>
+<p>A questão do OCR:</p>
+<p>“The authors also report that most of the errors occurred because of the low quality of the OCR result.” (Zilio et al., 2022, p.&nbsp;2)</p>
+</section>
+<section id="related-work-1" class="slide level2 center">
+<h2>Related work</h2>
+<p>A questão do treinamento:</p>
+<p>“For medieval French, Aguilar and Stutzmann [1] present a corpus and trained a new system for legal documents of the XIII and XIV centuries. Their performance measures are around 90%.” (Zilio et al., 2022, p.&nbsp;3)</p>
+</section>
+<section id="methodology" class="slide level2 center">
+<h2>Methodology</h2>
+<h3 id="corpus">3.1 Corpus</h3>
+<p>Três amostras de textos variados no mesmo período, com extensão similar. Utilizaram versão modernizadas e não-modernizadas para o estudo.</p>
+</section>
+<section id="methodology-1" class="slide level2 center">
+<h2>Methodology</h2>
+<h3 id="gold-standard">3.2 Gold standard</h3>
+<p>Criado a partir das versões modernizadas.</p>
+<p>“Two linguists, authors of this paper, annotated all samples independently and exhaustively.” (Zilio et al., 2022, p.&nbsp;4)</p>
+<p>Total de 262 entidades nomeadas.</p>
+</section>
+<section id="section-25" class="slide level2 center">
+<h2></h2>
+
+<img data-src="zilo1.png" class="r-stretch quarto-figure-center"><p class="caption">Zilio et al., 2022, p.&nbsp;5</p></section>
+<section id="methodology-2" class="slide level2 center">
+<h2>Methodology</h2>
+<h3 id="off-the-shelf-ner-tools">3.3 Off-the-shelf NER tools</h3>
+<p>Três modelos: 2 do spaCy (pretreinados: spaCy lg and spaCy sm) e um é um modelo BERT-CRF treinado para o português (Souza et al.)</p>
+</section>
+<section id="methodology-3" class="slide level2 center">
+<h2>Methodology</h2>
+<h3 id="evaluation-approach">3.4 Evaluation approach</h3>
+<blockquote>
+<p>“we analyzed whether the systems were able to extract the correct NEs from the samples, without taking the source segments into consideration.” (Zilio et al., 2022, p.&nbsp;6)</p>
+</blockquote>
+</section>
+<section id="results-p.-6" class="slide level2 center">
+<h2>Results (p.&nbsp;6)</h2>
+<h3 id="ner-on-modernized-samples">4.1. NER on modernized samples</h3>
+
+<img data-src="zilo2.png" class="r-stretch quarto-figure-center"><p class="caption">Zilio et al., 2022, p.&nbsp;6</p></section>
+<section id="section-26" class="slide level2 center">
+<h2></h2>
+<blockquote>
+<p>“Looking at the annotations generated by each system, it becomes clear that BERT-CRF had a better precision for the annotation of NE tags.” (Zilio et al., 2022, p.&nbsp;6)</p>
+</blockquote>
+<blockquote>
+<p>“Some recurrent mistakes of this system were the annotation of locations as persons and also the annotation of any digit as a value.” (Zilio et al., 2022, p.&nbsp;6)</p>
+</blockquote>
+</section>
+<section id="section-27" class="slide level2 center">
+<h2></h2>
+<h3 id="spacy">spaCy:</h3>
+<blockquote>
+<p>“incorrect annotation of tokens as NE, and also in the annotation of persons as locations (the opposite of BERT-CRF model).” (Zilio et al., 2022, p.&nbsp;7)</p>
+</blockquote>
+<blockquote>
+<p>“the tagging of extra tokens preceding or following a NE.” (Zilio et al., 2022, p.&nbsp;7)</p>
+</blockquote>
+<blockquote>
+<p>“This was not a problem at all for BERT-CRF.” (Zilio et al., 2022, p.&nbsp;7)</p>
+</blockquote>
+</section>
+<section id="section-28" class="slide level2 center">
+<h2></h2>
+<h3 id="bert-crf">BERT-CRF</h3>
+<p>“BERT-CRF had the best result when analyzing the extraction from a modernized version of the texts. However, since the process of modernizing these texts is similar to the process of a translation, it is unrealistic to expect all historical texts to be translated before applying a NER system to them. So we cannot use an NE extraction based on modernized versions as a parameter for old texts.” (Zilio et al., 2022, p.&nbsp;7)</p>
+</section>
+<section id="section-29" class="slide level2 center">
+<h2></h2>
+<h3 id="ner-systems-modernized-vs.-non-modernized-extraction">4.2 NER systems: modernized vs.&nbsp;non-modernized extraction</h3>
+
+<img data-src="zilo3.png" class="r-stretch quarto-figure-center"><p class="caption">Zilio et al., 2022, p.&nbsp;7</p></section>
+<section id="section-30" class="slide level2 center">
+<h2></h2>
+<h3 id="annotation-of-semedos-work">4.3 Annotation of Semedo’s Work</h3>
+<p>“The non-standard spelling”:</p>
+<blockquote>
+<p>“even in such adverse context, BERT-CRF annotations were still consistent, and it proved to be the most robust of the three models, as it was able to handle one of the main issues of working with old texts: the non-standard spelling.” (Zilio et al., 2022, p.&nbsp;8)</p>
+</blockquote>
+</section>
+<section id="section-31" class="slide level2 center">
+<h2></h2>
+<p>A anotação está disponível aqui: <a href="https://github.com/uebelsetzer/NER_for_Portuguese_XVIII-Century_Texts">https://github.com/uebelsetzer/NER_for_Portuguese_XVIII-Century_Texts</a></p>
+</section>
+<section id="final-remarks" class="slide level2">
+<h2>Final Remarks</h2>
+<blockquote>
+<p>“After analyzing the results of both experiments, we concluded that BERTCRF had better performance, even when considering the original spelling of the historical texts. Both spaCy models had issues in recognizing NEs, changing the tag of many entities and adding wrong NEs, especially in the non-modernized versions of the texts. Considering these results, we used BERT-CRF to annotate a large sample of non-modernized texts extracted from Semedo’s work Observa ̧coens medicas doutrinaes de cem casos gravissimos.” (Zilio et al., 2022, p.&nbsp;9)</p>
+</blockquote>
 <div class="quarto-auto-generated-content">
 <p><img src="https://www.dcc.ufrrj.br/ppgihd/wp-content/uploads/2021/11/cropped-hd-transparent.png" class="slide-logo"></p>
 <div class="footer footer-default">
