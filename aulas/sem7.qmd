@@ -1,0 +1,261 @@
+---
+title: "Codificação na geração, classificação e análise de informação histórica"
+subtitle: "IM-1256 - Introdução à História Digital"
+author: Eric Brasil
+date: 2024-10-08
+lang: pt-br
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    logo: https://www.dcc.ufrrj.br/ppgihd/wp-content/uploads/2021/11/cropped-hd-transparent.png
+    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+---
+
+## História como ciência: sua relação com as fontes {.center}
+
+- Como definir História?
+- Como fazer/pesquisa/escrever História?
+
+- A partir dos capítulos 1 e 2 do livro de Marc Bloch,  **Apologia da História, ou, o ofício de historiador**. Rio de Janeiro: J. Zahar, 2002.
+
+::: notes
+Vamos pensar essas questões a partir do texto do Marc Bloch. Inicialmente quero discutir com vocês esse ofício do históriador e a relação com as fontes, sem ainda entrar nas trasnformações que a era digital nos impõe.
+
+- Já tinha lido esse texto antes?
+- Alguém arrisca uma definição para História?
+:::
+
+---
+
+## Definição para Marc Bloch {.center}
+
+> Diz-se algumas vezes: “A história é a ciência do passado.” É [no meu modo de ver] falar errado.
+
+> [Pois, em primeiro lugar,] a própria ideia de que o passado, enquanto tal, possa ser objeto de ciência é absurda. Como, sem uma decantação prévia, poderíamos fazer, de fenômenos que não têm outra característica comum a não ser não terem sido contemporâneos, matéria de um conhecimento racional? (52)
+
+---
+
+## Ação humana no passado? {.center}
+
+>o objeto da História é, por natureza, o homem (54).
+
+---
+
+## {.center}
+
+>“Ciência dos homens”, dissemos. É ainda vago demais. É preciso acrescentar: “dos homens, no tempo”. O historiador não apenas pensa “humano”. A atmosfera em que seu pensamento respira naturalmente é a categoria da duração[...]. É o próprio plasma em que se engastam os fenômenos e como o lugar de sua inteligibilidade. (55)
+
+---
+
+## {.center}
+
+>Ora, esse tempo verdadeiro é, por natureza, um continuum. É também perpétua mudança. Da antítese desses dois atributos provêm os grandes problemas da pesquisa histórica.(55)
+
+>Nunca se explica plenamente um fenômeno histórico fora do estudo de seu momento.(60)
+
+---
+
+## Demônio das origens e a mania de julgamento (58-60) {.center}
+
+- Buscar as origens para "melhor justificar ou condenar"?
+- "confundir filiação com uma explicação"
+
+---
+
+## {.center}
+
+>O carvalho nasce da glande. Mas carvalho se torna e permanece apenas ao encontrar condições de ambiente favoráveis, as quais não resultam da embriologia. (58)
+
+>Pois, para grande desespero dos historiadores, os homens não têm o hábito, a cada vez que mudam de costumes, de mudar de vocabulário. (59)
+
+---
+
+## Passado e presente para Marc Bloch {.center}
+
+>Já contei em outro lugar o episódio: eu estava acompanhando, em Estocolmo, Henri Pirenne. Mal chegamos, ele me diz: “O que vamos ver primeiro? Parece que há uma prefeitura nova em folha. Comecemos por ela.” Depois, como se quisesse prevenir um espanto, acrescentou: “Se eu fosse antiquário, só teria olhos para as coisas velhas.  Mas sou um historiador. É por isso que amo a vida.” Essa faculdade de apreensão do que é vivo, eis justamente, com efeito, a qualidade mestra do historiador.(65-67)
+
+---
+
+## {.center}
+
+> Li muitas vezes, narrei frequentemente, relatos de guerras e de batalhas. Conhecia eu verdadeiramente, no sentido pleno do verbo conhecer, conhecia por dentro, antes de ter eu mesmo experimentado a atroz náusea, o que são, para um exército, o cerco, para um povo, a derrota? Antes de ter eu mesmo, durante o verão e o outono de 1918, respirado a alegria da vitória na expectativa, e decerto espero, de com ela encher uma segunda vez meus pulmões, mas o perfume, ai de mim, não será mais completamente o mesmo —, sabia eu verdadeiramente o que encerra essa bela palavra? 
+
+---
+
+## {.center}
+
+>[...] Na verdade, conscientemente ou não, é sempre a nossas experiências cotidianas que, para nuançá-las onde se deve, atribuímos matizes novos, em última análise os elementos, que nos servem para reconstituir o passado: os próprios nomes que usamos a fim de caracterizar os estados de alma desaparecidos, as formas sociais evanescidas, que sentido teriam para nós se não houvéssemos antes visto homens viverem? (66)
+---
+
+## {.center}
+
+> Além de tudo, a educação da sensibilidade histórica nem sempre está sozinha em questão. Ocorre de, em uma linha  dada, o conhecimento do presente ser diretamente ainda mais importante para a compreensão do passado.(66)
+
+---
+
+## Fontes históricas {.center}
+
+
+- O que faz de um documento uma fonte histórica?
+
+- Onde elas estão?
+
+- Como encontrá-las, acessá-las, inquiri-las?
+
+---
+
+## História tem método? {.center}
+
+### O que Marc Bloch diz sobre isso?
+
+- O conhecimento do passado é necessariamente "indireto"
+
+- Historiador sempre chega após o "experimento" acontecer. Mas esse sempre deixa "resíduos" = VESTÍGIOS
+
+- "O passado é, por definição, um dado que nada mais modificará. Mas o conhecimento do passado é uma coisa em progresso, que incessantemente se transforma e aperfeiçoa". (75)
+
+::: notes
+Quais as particularidades idades da observação histórica que nos permite perceber o passado através desses vestígios?
+:::
+
+---
+
+## {.center}
+
+> Procedimentos de investigação até então desconhecidos também surgiram. Sabemos melhor que nossos predecessores interrogar as línguas acerca dos costumes, as ferramentas acerca do artesão. Aprendemos sobretudo a mergulhar mais profundamente na análise dos fatos sociais.
+
+---
+
+## {.center}
+
+>[...] É que os exploradores do passado não são homens completamente livres. O passado é seu tirano. Proíbe-lhes conhecer de si qualquer coisa a não ser o que ele mesmo lhes fornece [, conscientemente ou não]. Jamais estabeleceremos uma estatística dos preços na época merovíngia, pois nenhum documento registrou esses preços em número suficiente.
+
+---
+
+## {.center}
+
+> é nas testemunhas à revelia que a investigação histórica, ao longo de seus progressos, foi levada a depositar cada vez mais sua confiança.(77)
+
+> Do mesmo modo, até nos testemunhos mais resolutamente voluntários, o que os textos nos dizem expressamente deixou hoje em dia de ser o objeto predileto de nossa atenção. Apegamo-nos geralmente com muito mais ardor ao que ele nos deixa entender, sem haver pretendido dizê-lo.(78)
+
+---
+
+## {.center}
+
+> Mas, a partir do momento em que não nos resignamos mais a registrar [pura e] simplesmente as palavras de nossas testemunhas, a partir do momento em que tencionamos fazê-las falar [, mesmo a contragosto], mais do que nunca impõe-se um questionário. Esta é, com efeito, a primeira necessidade de qualquer pesquisa histórica bem conduzida. (78)
+
+---
+
+## {.center}
+
+> Pois os textos ou os documentos arqueológicos, mesmo os aparentemente mais claros e mais complacentes, não falam senão quando sabemos interrogá-los. [...] toda investigação histórica supõe, desde seus primeiros passos, que a busca tenha uma direção. [...] Naturalmente, é necessário que essa escolha ponderada de perguntas seja extremamente flexível, suscetível de agregar, no caminho, uma multiplicidade de novos tópicos, e aberta a todas as surpresas. 
+
+---
+
+## {.center}
+
+De tal modo, no entanto, que possa desde o início servir de ímã às limalhas do documento. O explorador sabe muito bem, previamente, que o itinerário que ele estabelece, no começo, não será seguido ponto a ponto. Não ter um, no entanto, implicaria o risco de errar eternamente ao acaso.(79)
+
+---
+
+## {.center}
+
+> A diversidade dos testemunhos históricos é quase infinita. Tudo que o homem diz ou escreve, tudo que fabrica, tudo que toca pode e deve informar sobre ele. (79)
+
+---
+
+## {.center}
+
+> É bom, a meu ver, é indispensável que o historiador possua ao menos um verniz de todas as principais técnicas de seu ofício. Mesmo apenas a fim de saber avaliar, previamente, a força da ferramenta e as dificuldades de seu manejo. A lista das “disciplinas auxiliares” cujo ensino propomos a nossos iniciantes é demasiado restrita. Por qual absurdo paralogismo, deixamos que homens que, boa parte do tempo, só conseguirão atingir os objetos de seus estudos através das palavras ignorem, entre outras lacunas, as aquisições fundamentais da linguística? 
+
+---
+
+## {.center}
+
+>[...] No entanto, por maior que seja a variedade de conhecimentos que se queira proporcionar aos pesquisadores mais bem armados, elas encontrarão sempre, e geralmente muito rápido, seus limites. Nenhum remédio então senão substituir a multiplicidade de competências em um mesmo homem por uma aliança de técnicas praticadas por eruditos diferentes, mas [todas] voltadas para a elucidação de um tema único. [...]
+
+---
+
+## {.center}
+
+>Esse método supõe o consentimento no trabalho por equipes. Exige também a definição prévia, por comum acordo, de alguns grandes problemas predominantes. São êxitos de que nos encontramos ainda bastante distantes. Eles determinam porém, numa larga medida — não duvidemos —, o futuro de nossa ciência. (81)
+
+---
+
+## {.center}
+
+> Reunir os documentos que estima necessários é uma das tarefas mais difíceis do historiador. De fato ele não conseguiria realizá-la sem a ajuda de guias diversos: inventários de arquivo ou de bibliotecas, catálogos de museus, repertórios bibliográficos de toda sorte. Vê-se [às vezes] pedantes à cavaleiro espantarem-se com o tempo sacrificado por alguns eruditos a compor semelhantes obras, por todos os trabalhadores a se informar sobre sua existência e seu manejo. [...] A ferramenta [, decerto,] não faz a ciência. 
+
+---
+
+## {.center}
+
+>[...] Mas uma sociedade que pretende respeitar as ciências não deveria se desinteressar de suas ferramentas. Sem dúvida, quanto a isso, também seria sensata em não se reportar a corpos acadêmicos, uma vez que seu recrutamento, favorável à preeminência da idade e propícia aos bons alunos, não predispõe particularmente ao espírito de empreendimento. Nossa Escola de Guerra e nossos estados-maiores não são os únicos, em nosso país, a ter conservado a mentalidade do carro de bois na época do automóvel. 
+
+---
+
+## {.center}
+
+> Entretanto, por mais bem feitos, por mais abundantes que possam ser, esses marcos indicadores seriam somente de pouca serventia para um trabalhador que não tivesse, previamente, alguma ideia do terreno a explorar. A despeito do que às vezes parecem imaginar os iniciantes, os documentos não surgem, aqui ou ali, por efeito [de não se sabe] qual misterioso decreto dos deuses. 
+
+---
+
+## {.center}
+
+>[...] Sua presença ou ausência em tais arquivos, em tal biblioteca, em tal solo deriva de causas humanas que não escapam de modo algum à análise, e os problemas que sua transmissão coloca, longe de terem apenas o alcance de exercícios de técnicos, tocam eles mesmos no mais íntimo da vida do passado, pois o que se encontra assim posto em jogo é nada menos do que a passagem da lembrança através das gerações. 
+
+---
+
+## {.center}
+
+> À frente das obras históricas do gênero sério, o autor em geral coloca uma lista das cotas de arquivos que vasculhou, das coletâneas de que fez uso. Isso é muito bom. Mas não basta. Todo livro de história digno desse nome deveria comportar um capítulo ou [, caso se prefira], inserida nos pontos de inflexão da exposição, uma série de parágrafos que se intitulariam algo como: “Como posso saber o que vou lhes dizer?”
+
+---
+
+## {.center}
+
+>[...] Estou convencido de que, ao tomar conhecimento dessas confissões, inclusive os leitores que não são do ofício experimentariam um verdadeiro prazer intelectual. O espetáculo da busca, com seus sucessos e reveses, raramente entedia. É o tudo pronto que espalha o gelo e o tédio (82-83)
+
+---
+
+## Como fazer isso na era digital? {.center}
+
+- Novas fontes?
+- Novas técnicas?
+- Novas perguntas?
+
+::: notes
+Ampliação de fontes + ferramentas que auxiliam em análises ‘de qualidade superior’
+:::
+
+---
+
+## Processamento de Linguagem Natural {.center}
+
+- Computadores “lendo” e “entendendo” linguagem humana
+- Análise textual (gramática, semântica, lexicográfica, etc.)
+- NER (Name Entity Recognition) - Nomes, entidades, etc.
+
+---
+
+## Produção de conhecimento histórico por computadores? {.center}
+
+Instrumental básico de historiadores/as - manipular evidências, transformar em ‘informações racionalmente classificadas’, escrever narrativas: é ao mesmo tempo método e técnica, mas também sensibilidade, ‘intuição alta’ (nas palavras de Ginzburg):
+
+---
+
+## {.center}
+
+>Chegarão as máquinas a desenvolver esse tipo de “alta intuição”? Em que tipo de operação cognitiva a inteligência artificial já pode, hoje em dia, auxiliar a pesquisa histórica? (FORTES, A.; ALVIM, L. G. M, 2020, p.215)
+
+---
+
+## Exemplo de uso de NLP e NER {.center}
+
+ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. 2022. Disponível em: [https://dspace.uevora.pt/rdpc/handle/10174/32165](https://dspace.uevora.pt/rdpc/handle/10174/32165).
+
