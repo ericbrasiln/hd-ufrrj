@@ -151,6 +151,16 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 ### Semana 9
 
+**AULA CANCELADA**
+
+Prezados(as) alunos(as),
+
+Informamos que a aula do dia 29/10/2024 (Aula 9), com o tema "Repensando a pesquisa histórica na Era Digital", será cancelada. O professor Eric teve um imprevisto profissional e não conseguirá chegar a tempo para ministrar a aula.
+
+O cronograma da disciplina será reorganizado para compensar o conteúdo, e em breve enviaremos as atualizações.
+
+Agradecemos a compreensão de todos(as)!
+
 | Aula | Data | Tema |
 |:----:|:-----------:|:-------------------------------------------------------------|
 | 9    | 29/10/2024  | Repensando a pesquisa histórica na Era Digital |
