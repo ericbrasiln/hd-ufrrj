@@ -95,11 +95,16 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 |:----:|:-----------:|:-------------------------------------------------------------|
 | 5    | 24/09/2024  | Fontes digitais, coleções e plataformas online |
 
+
 **Bibliografia Básica**
 
 - BRASIL, Eric; NASCIMENTO, Leonardo F. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. Revista Estudos Históricos, v. 33, n. 69, p. 196–219, 2020. Doi: [http://dx.doi.org/10.1590/S2178-14942020000100011](http://dx.doi.org/10.1590/S2178-14942020000100011)
 - BRAYNER, Aquiles Alencar - Desafios e Oportunidades para Instituições de Memória Cultural na Era Digital (Apresentação de Power Point). British Library, 2016. [Link](http://rubi.casaruibarbosa.gov.br/xmlui/bitstream/handle/20.500.11997/1335/Brayner%2c%20Aquiles%20Alencar%20-%20Desafios%20e%20Oportunidades%20para%20Institui%c3%a7%c3%b5es%20de%20Mem%c3%b3ria%20Cultural%20na%20Era%20Digital.pdf?sequence=1&isAllowed=y)
 - RIBEIRO, Felipe Augusto Dos Santos et al. Explorando os potenciais da história digital: A experiência do Centro de Documentação e Imagem da Universidade Federal Rural Do Rio De Janeiro - Campus de Nova Iguaçu. Estudos Históricos (Rio de Janeiro), [s. l.], v. 33, n. 69, p. 152–172, 2020. Disponível em: [https://doi.org/10.1590/s2178-14942020000100009](https://doi.org/10.1590/s2178-14942020000100009)
+
+**Material de apoio**
+
+- [Slides](https://ericbrasil.com.br/hd-ufrrj/aulas/hdb)
 
 **Pesquisa exploratória nos seguintes acervos digitais**
 
@@ -124,6 +129,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
+- [Slides](https://ericbrasil.com.br/hd-ufrrj/aulas/pyhdb)
 - [Documentação da ferramenta pyHDB](https://ericbrasil.com.br/pyHDB/)
 - Lições sobre Python no Programming Historian em português: [Clique aqui](https://programminghistorian.org/pt/licoes/?topic=python)
 
@@ -138,6 +144,10 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 - BLOCH, Marc. Apologia da história ou o ofício do historiador. Rio de Janeiro: Jorge Zahar, 2001. Pp. 51-87
 - ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. [s. l.], 2022. Disponível em: [https://dspace.uevora.pt/rdpc/handle/10174/32165](https://dspace.uevora.pt/rdpc/handle/10174/32165). Acesso em: 4 out. 2024.
 
+**Material de apoio**
+
+- [Slides](https://ericbrasil.com.br/hd-ufrrj/aulas/sem7)
+
 ### Semana 8
 
 | Aula | Data | Tema |
@@ -148,6 +158,10 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 - Megan S. Kane, "Corpus Analysis with spaCy," Programming Historian 12 (2023), [https://doi.org/10.46430/phen0113](https://doi.org/10.46430/phen0113).
 - Andrew Akhlaghi, "OCR and Machine Translation," Programming Historian 10 (2021), [https://doi.org/10.46430/phen0091](https://doi.org/10.46430/phen0091).
+
+**Material de apoio**
+
+- [Notebooks](https://github.com/ericbrasiln/hd-ufrrj/tree/main/aulas/of4)
 
 ### Semana 9
 
@@ -197,9 +211,14 @@ Agradecemos a compreensão de todos(as)!
 |:----:|:-----------:|:-------------------------------------------------------------|
 | 12   | 19/11/2024  | Oficina de Ferramentas VI: Versionamento, documentação e princípios FAIR |
 
+
 **Bibliografia Básica**
 
 - Eric Brasil, "Git como ferramenta metodológica em projetos de História (parte 1)", Programming Historian em português 3 (2023), [https://doi.org/10.46430/phpt0045](https://doi.org/10.46430/phpt0045).
+
+**Material de apoio**
+
+- [Slides](https://ericbrasil.com.br/hd-ufrrj/aulas/git)
 
 ### Semana 13
 

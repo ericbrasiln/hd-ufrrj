@@ -12,6 +12,14 @@
 
 - [Slides](https://ericbrasil.com.br/hd-ufrrj/aulas/pyhdb)
 
-## Aulas 7
+## Aula 7
 
 - [Slides](https://ericbrasil.com.br/hd-ufrrj/aulas/sem7)
+
+## Aula 8
+
+- [Notebooks](https://github.com/ericbrasiln/hd-ufrrj/tree/main/aulas/of4)
+
+## Aula 12
+
+- [Slides](https://ericbrasil.com.br/hd-ufrrj/aulas/git)
