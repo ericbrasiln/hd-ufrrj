@@ -58,4 +58,8 @@ Para mais informações ou dúvidas, entre em contato pelo e-mail fornecido acim
 
 ---
 
+A versão atual corresponde ao semestre 2025.2 e está no ramo `main`.
+
+---
+
 © 2025 Eric Brasil - Todos os direitos reservados.
