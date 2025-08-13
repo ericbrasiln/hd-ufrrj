@@ -42,7 +42,7 @@ geometry:
 | 14   | 19/11/2025 | Oficina VI: a definir                                | 4  | Prática 🛠️        |
 | 15   | 26/11/2025 | Novos desafios éticos e os riscos das IAs            | 4  | Debates teóricos 📖        |
 
-[Voltar para a página inicial](https://ericbrasil.com.br/hf-ufrrj/)
+[Voltar para a página inicial](https://ericbrasil.com.br/hd-ufrrj/)
 
 [Ir para o repositório da disciplina no GitHub](https://github.com/ericbrasiln/hd-ufrrj)
 
