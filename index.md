@@ -10,6 +10,7 @@ date: 2025-08-11
 description: "Plano de Ensino da disciplina Introdução à História Digital, ministrada no PPGIHD/UFRRJ em 2025.2."
 lang: pt-BR
 ---
+
 # Introdução à História Digital - IM-1256 - 2025.2
 
 Bem-vindo ao repositório oficial da disciplina **Introdução à História Digital**, oferecida no Programa de Pós-Graduação Interdisciplinar em Humanidades Digitais da Universidade Federal Rural do Rio de Janeiro (UFRRJ) no semestre 2025.2.
@@ -76,4 +77,4 @@ A versão atual corresponde ao semestre 2025.2 e está no ramo `main`.
 
 © 2025 Eric Brasil - Todos os direitos reservados.
 
-![https://omekas.im.ufrrj.br/files/original/aa99fe174fd6f97dd42ee78a359a46428b9997be.png]
+![](https://omekas.im.ufrrj.br/files/original/aa99fe174fd6f97dd42ee78a359a46428b9997be.png)
