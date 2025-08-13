@@ -19,7 +19,7 @@ toc: true
 |:--------:|:--------------------------------:|:---:|:---:|:-------:|:-------:|
 | IM-1256  | Introdução à História Digital    | 60h | 3ª  | 14h-18h | Híbrido |
 
-Link para sala virtual: [Clique aqui](https://meet.jit.si/Intro_Hist_Dig_PPGIHD)
+Link para sala virtual: convite foi enviado por e-mail.
 
 ## Ementa
 

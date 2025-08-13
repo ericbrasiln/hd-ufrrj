@@ -24,7 +24,7 @@ A ementa completa da disciplina, incluindo os conteúdos programáticos, bibliog
 
 - **Código da disciplina**: IM-1256
 - **Carga horária**: 60 horas
-- **Dia e horário das aulas**: Quintas-feiras, das 14h às 18h
+- **Dia e horário das aulas**: Quartas-feiras, das 14h às 18h
 - **Formato**: Totalmente remoto
 
 ## Recursos e Materiais
@@ -63,3 +63,5 @@ A versão atual corresponde ao semestre 2025.2 e está no ramo `main`.
 ---
 
 © 2025 Eric Brasil - Todos os direitos reservados.
+
+![https://omekas.im.ufrrj.br/files/original/aa99fe174fd6f97dd42ee78a359a46428b9997be.png]
