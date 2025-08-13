@@ -43,7 +43,7 @@ A ementa completa da disciplina, incluindo os conteúdos programáticos, bibliog
 ## Recursos e Materiais
 
 - Sala virtual (Google Meet): link será informado no Sigaa e enviado por e-mail.
-- Apresentações usadas nas aulas: [Clique aqui](https://ericbrasil.com.br/hd-ufrrj/aulas)
+- Apresentações usadas nas aulas: [EM BREVE]()
 - [Repositório GitHub](https://github.com/ericbrasiln/hd-ufrrj)
 
 ## Conteúdo Programático
