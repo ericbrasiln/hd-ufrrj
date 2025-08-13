@@ -19,7 +19,7 @@ geometry:
 
 | Docente     | Período | CH  | Horário          | Formato | Contato |
 |:-----------:|:-------:|:---:|:----------------:|:----:|:---------------------------:|
-| Eric Brasil | 2025.2  | 60h | Quintas, 14h-18h | Remoto | profericbrasil@unilab.edu.br|
+| Eric Brasil | 2025.2  | 60h | Quartas, 14h-18h | Remoto | profericbrasil@unilab.edu.br|
 
 ## Cronograma
 
@@ -48,5 +48,5 @@ geometry:
 
 ---
 
-![](https://raw.githubusercontent.com/ericbrasiln/cclhm0076/refs/heads/main/imgs/banner_logos_hist.png)
+![](https://omekas.im.ufrrj.br/files/original/aa99fe174fd6f97dd42ee78a359a46428b9997be.png)
 
