@@ -47,13 +47,18 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 2    | 20/08/2025 | História e tecnologia: do código Morse aos LLMs |
 
 **Bibliografia Básica**
-- EM BREVE
+
+- JARDIM, José Maria. As novas tecnologias da informação e o futuro dos arquivos. *Revista Estudos Históricos*, v. 5, n. 10, p. 251–260, 30 jul. 1992. [Link](https://periodicos.fgv.br/reh/article/view/1942). 
+- SILVEIRA, P. T. DA. "4. Das novas mídias aos objetos digitais." In: **História, técnica e novas mídias: reflexões sobre a história na era digital**. Tese de doutorado. Porto Alegre: UFRGS, 2018. [Link](https://lume.ufrgs.br/handle/10183/189249).
 
 **Bibliografia Complementar**
-- EM BREVE
+
+- ALVES, D. As Humanidades Digitais como uma comunidade de práticas dentro do formalismo académico: dos exemplos internacionais ao caso português. Ler História, n. 69, p. 91–103, 30 dez. 2016. [Link](https://journals.openedition.org/lerhistoria/2496).
 
 **Material de apoio**
-- EM BREVE
+
+- [Slides da aula 2](ericbrasil.com.br/hd-ufrrj/aulas/2)
+- [História do Código Morse](https://youtu.be/xcjgm6ctzAw?si=KWMzasYxj4Ihz_n3) (YouTube)
 
 ### Semana 3
 | Aula | Data       | Tema |
