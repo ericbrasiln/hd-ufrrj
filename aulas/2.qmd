@@ -274,15 +274,37 @@ Artistas levam a fama
 
 ## 1. Historicidade da mudança tecnológica {.center}
 
-- Jardim vê os anos 1990 como marco de uma “Segunda Revolução Industrial” → da mecanização para a informação.  
-- A informação passa a ser produto estratégico, ligado ao poder econômico.  
+- Anos 1990 como marco de uma “~Segunda~ [!?!?!] Terceira Revolução Industrial” → *Era da informação.*  
+- Armazenamento, disseminação, criação e gestão de informações em escala sem precedentes no anos 1990. E hoje?
+- Formato X Conteúdo. O meio (físico) era central para definir o documento: a informação não era pensada como uma entidade específica (até os anos 1950).
+
+---
+
+## 1. Historicidade da mudança tecnológica {.center}
+
+>"As sociedades modernas estão sob um 'choque informático' ou seja, suas estruturas econômicas, sociais e culturais estão sendo profundamente alteradas com as novas tecnologias da informação." (p. 253).
+
 - **Questão:** essa sensação de ruptura e aceleração lembra a forma como hoje falamos da chegada das **IAs generativas**?
 
 ---
 
 ## 2. Impactos nos arquivos e na arquivologia {.center}
 
-- Emergência dos documentos eletrônicos → desafio aos conceitos de *original*, *proveniência* e *preservação*.  
+- As Instituições arquivísticas se organizavam em torno do formato físico dos documentos, como papel, microfilme, etc.
+- O digital impõe uma mudança: pensar abstratamente no "conjunto de símbolos que chamamos de informação."
+
+---
+
+## 2. Impactos nos arquivos e na arquivologia {.center}
+
+- Documentos eletrônicos possuem "analogias com o documento papel", mas estão sendo alterados: "*documento hipermídia*" (p. 254).
+- **Questão:** O que é um PDF e qual seu impacto para a pesquisa nas Humanidades digitais?
+
+---
+
+## 2. Impactos nos arquivos e na arquivologia {.center}
+
+- Emergência dos documentos eletrônicos → desafio aos conceitos de *original*, *proveniência* e *preservação* entre outros (p. 254).
 - Arquivista precisa atuar desde a produção até o acesso e migração tecnológica.  
 - **Questão:** até que ponto os desafios apontados em 1992 permanecem atuais (big data, nuvem, digital born)?
 
@@ -290,7 +312,7 @@ Artistas levam a fama
 
 ## 3. Tecnologia e desigualdade {.center}
 
-- Jardim aponta o **“colonialismo informacional”** → concentração dos bancos de dados nos EUA e Europa.  
+- Jardim aponta o **"novo colonialismo via novas tecnologias"** → concentração dos bancos de dados nos EUA e Europa.  
 - Novas tecnologias reforçam desigualdades globais.  
 - **Questão:** podemos comparar com a atual concentração das **IAs generativas** nas big techs?
 
@@ -304,3 +326,40 @@ Artistas levam a fama
 
 ---
 
+## Debate do texto: {.center}
+
+> SILVEIRA, Pedro Telles da. História, técnica e novas mídias : reflexões sobre a história na era digital. **Doutorado** — Porto Alegre: UFRGS, 2018.
+
+- **Ponto central:** impacto das novas mídias digitais na prática historiográfica → do paradigma impresso aos objetos digitais.
+
+---
+
+## 1. O que são as “novas mídias”? {.center}
+
+- Não se trata apenas de novos suportes, mas de novas formas de produzir, armazenar e acessar informação.  
+- O digital gera documentos de natureza própria: **objetos digitais**.  
+- **Questão:** como diferenciar um documento digitalizado de um objeto nascido-digital?
+
+---
+
+## 2. Transformações na pesquisa histórica {.center}
+
+- O digital muda o **regime de historicidade** → aceleração do tempo, excesso de fontes, novas formas de memória.  
+- Arquivos e bancos de dados digitais tornam-se **atores ativos** na construção da história.  
+- **Questão:** como essa abundância de dados impacta a forma de fazer pesquisa histórica hoje?
+
+---
+
+## 3. Desafios teóricos e metodológicos {.center}
+
+- Crítica das fontes deve incluir **formatos, sistemas e softwares** que constituem o documento.  
+- Risco de naturalizar o digital como mera ferramenta.  
+- **Questão:** em que medida precisamos reinventar a “crítica das fontes” diante dos objetos digitais?
+
+---
+
+## 4. História Digital e interdisciplinaridade {.center}
+
+- História Digital não é só uso de ferramentas, mas um **novo regime epistemológico**.  
+- Exige diálogo com **Ciência da Informação, Arquivologia e Computação**.  
+- **Questão:** a História Digital é uma “nova disciplina” ou apenas uma ampliação metodológica da História?
