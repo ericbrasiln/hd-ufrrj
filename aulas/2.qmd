@@ -16,9 +16,9 @@ format:
     footer: "IM-1256 - Introdução à História Digital | <a href=https://ericbrasil.com.br/hd-ufrrj/>Acesse o material da disciplina</a>"
 ---
 
-## Acesse os slides {.center}
+## Acesse os slides da aula {.center}
 
-![](../imgs/unicorn.jpg)
+![](./imgs/qrc2.png){fig-align="center"}
 
 [**ericbrasil.com.br/hd-ufrrj/aulas/2**](https://ericbrasil.com.br/hd-ufrrj/aulas/2)
 
