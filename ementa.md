@@ -94,12 +94,18 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 5    | 10/09/2025 | Fontes digitais, coleções e plataformas online |
 
 **Bibliografia Básica**
-- EM BREVE
+
+- BRASIL, Eric; NASCIMENTO, Leonardo F. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. *Revista Estudos Históricos*, v. 33, n. 69, p. 196–219, 2020.
+- JENSEN, Helle Strandgaard. Digital Archival Literacy for (all) Historians. *Media History*, v. 27, n. 2, p. 251–265, 2021. 
 
 **Bibliografia Complementar**
-- EM BREVE
+
+- BRASIL, Eric. Interfaces de hemerotecas digitais em português: análise crítica e desafios para o desenvolvimento de uma nova geração de acervos históricos. *Matraga - Revista do Programa de Pós-Graduação em Letras da UERJ*, v. 32, n. 65, p. 325–346, 31 maio 2025. 
+- PUTNAM, Lara. The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast. *The American Historical Review*, v. 121, n. 2, p. 377–402, abr. 2016. 
+- SOLBERG, Janine. Googling the Archive: Digital Tools and the Practice of History. *Advances in the History of Rhetoric*, v. 15, n. 1, p. 53–76, 1 jan. 2012. 
 
 **Material de apoio**
+
 - EM BREVE
 
 ### Semana 6
@@ -122,10 +128,14 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 7    | 24/09/2025 | Codificação na geração, classificação e análise de informação histórica |
 
 **Bibliografia Básica**
-- EM BREVE
+
+- BLOCH, Marc. **Apologia da história ou o ofício do historiador**. Rio de Janeiro: Jorge Zahar, 2001. Pp. 51-87
+- FORTES, Alexandre; ALVIM, Leandro Guimarães Marques. Evidências, códigos e classificações: o ofício do historiador e o mundo digital. *Esboços: histórias em contextos globais*, v. 27, n. 45, p. 207–227, 19 jun. 2020. 
 
 **Bibliografia Complementar**
-- EM BREVE
+
+- ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. abr. 2022. 
+- BŁOCH, Agata; VASQUES FILHO, Demival; BOJANOWSKI, Michał. Networks from archives: Reconstructing networks of official correspondence in the early modern Portuguese empire. *Social Networks*, 24 set. 2020. 
 
 **Material de apoio**
 - EM BREVE
