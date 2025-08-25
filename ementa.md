@@ -65,28 +65,60 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 |:----:|:----------:|:-------------------------------------------------------------|
 | 3    | 27/08/2025 | Oficina I: Atualizando a caixa de ferramentas (parte 1) |
 
-**Bibliografia Básica**
-- EM BREVE
-
-**Bibliografia Complementar**
-- EM BREVE
 
 **Material de apoio**
-- EM BREVE
+
+- Links oficiais das ferramentas apresentadas na oficina:
+    - [Tropy](https://tropy.org/)
+    - [Zotero](https://www.zotero.org/)
+    - [Omeka](https://omeka.org/)
+    - [Obsidian](https://obsidian.md/)
+    - [Markdown](https://commonmark.org/)
+    - [MarkText](https://github.com/marktext/marktext)
+    - [Quarto](https://quarto.org/)
+
+- Vídeos de apoio:
+    - [Zotero do Zero - Tutorial de instalação do Zotero no Windows 10](https://youtu.be/CPdhyKboKC0?si=LnpLjIqSrC7xlsaX)
+    - [Workshop de Zotero - Ferramentas Digitais e a pesquisa em Humanidades.](https://youtu.be/I5ohkh5d51Y?si=81EfwA5mJBGo1O35)
+    - [Oficina: Organização, anotação e classificação de fontes primárias com Tropy | Anita Lucchesi](https://www.youtube.com/live/PE8WpSoYiFw?si=VS1QcODzx1Q0qEHp)
+    - [Curso de Omeka | Danielle Sanches](https://youtube.com/playlist?list=PLg21c7Nu0pVmEXiA0hrNanUFjglxWcy_R&si=4W-Eg8zo0B_mlzBV)
+    - [Uma introdução ao Markdown e suas possibilidades no ensino e divulgação científica | Eric Brasil](https://www.youtube.com/watch?v=TtnATYla2gE)
+
+- Tutoriais:
+   - [Sarah Simpkin, "Introdução ao Markdown", traduzido por João Gilberto Neves Saraiva, Programming Historian em português 1 (2021), https://doi.org/10.46430/phpt0008.](https://programminghistorian.org/pt/licoes/introducao-ao-markdown)
+   - [Dennis Tenen e Grant Wythoff, "Autoria Sustentável em Texto Simples usando Pandoc e Markdown", traduzido por Gabriela Kucuruza, Programming Historian em português 2 (2022), https://doi.org/10.46430/phpt0036.](https://programminghistorian.org/pt/licoes/autoria-sustentavel-texto-simples-pandoc-markdown)
+   - [Miriam Posner, "Introdução ao Omeka.net", traduzido por Gabriela Kucuruza, Programming Historian em português 1 (2021), https://doi.org/10.46430/phpt0011.](https://programminghistorian.org/pt/licoes/introducao-omeka-net)
+   - [Miriam Posner e Megan R. Brett, "Criar uma Exposição Omeka", traduzido por Gabriela Kucuruza, Programming Historian em português 1 (2021), https://doi.org/10.46430/phpt0012.](https://programminghistorian.org/pt/licoes/criar-exposicao-omeka)
 
 ### Semana 4
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 4    | 03/09/2025 | Oficina I: Atualizando a caixa de ferramentas (parte 2) |
 
-**Bibliografia Básica**
-- EM BREVE
-
-**Bibliografia Complementar**
-- EM BREVE
-
 **Material de apoio**
-- EM BREVE
+
+- Links oficiais das ferramentas apresentadas na oficina:
+    - [Git](https://git-scm.com/)
+    - [GitHub](github.com)
+    - [Zenodo](https://zenodo.org/)
+    - [OSF](https://osf.io/)
+    - [Gephi](https://gephi.org/)
+    - [QGIS](https://qgis.org/)
+    - [Voyant Tools](https://voyant-tools.org/)
+    - [AntConc](https://www.laurenceanthony.net/software/antconc/)
+    - [OpenRefine](https://openrefine.org/)
+    - [Audacity](https://www.audacityteam.org/)
+    - [OBS Studio](https://obsproject.com/)
+    - [Kdenlive](https://kdenlive.org/)
+    - [StoryMapJS](https://storymap.knightlab.com/)
+    - [TimelineJS](https://timeline.knightlab.com/)
+    - [FFmpeg](https://ffmpeg.org/)
+
+- Vídeos de apoio:
+    - []()
+
+- Tutoriais:
+    - []()
 
 ### Semana 5
 | Aula | Data       | Tema |
@@ -95,18 +127,24 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- BRASIL, Eric; NASCIMENTO, Leonardo F. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. *Revista Estudos Históricos*, v. 33, n. 69, p. 196–219, 2020.
-- JENSEN, Helle Strandgaard. Digital Archival Literacy for (all) Historians. *Media History*, v. 27, n. 2, p. 251–265, 2021. 
+- BRASIL, Eric; NASCIMENTO, Leonardo F. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. *Revista Estudos Históricos*, v. 33, n. 69, p. 196–219, 2020. [Link](http://dx.doi.org/10.1590/S2178-14942020000100011).
+- JENSEN, Helle Strandgaard. Digital Archival Literacy for (all) Historians. *Media History*, v. 27, n. 2, p. 251–265, 2021. [Link](https://doi.org/10.1080/13688804.2020.1779047).
 
 **Bibliografia Complementar**
 
-- BRASIL, Eric. Interfaces de hemerotecas digitais em português: análise crítica e desafios para o desenvolvimento de uma nova geração de acervos históricos. *Matraga - Revista do Programa de Pós-Graduação em Letras da UERJ*, v. 32, n. 65, p. 325–346, 31 maio 2025. 
-- PUTNAM, Lara. The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast. *The American Historical Review*, v. 121, n. 2, p. 377–402, abr. 2016. 
-- SOLBERG, Janine. Googling the Archive: Digital Tools and the Practice of History. *Advances in the History of Rhetoric*, v. 15, n. 1, p. 53–76, 1 jan. 2012. 
+- BRASIL, Eric. Interfaces de hemerotecas digitais em português: análise crítica e desafios para o desenvolvimento de uma nova geração de acervos históricos. *Matraga - Revista do Programa de Pós-Graduação em Letras da UERJ*, v. 32, n. 65, p. 325–346, 31 maio 2025. [Link](https://doi.org/10.12957/matraga.2025.89783).
+- PUTNAM, Lara. The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast. *The American Historical Review*, v. 121, n. 2, p. 377–402, abr. 2016. [Link](https://www.jstor.org/stable/43955768).
+- SOLBERG, Janine. Googling the Archive: Digital Tools and the Practice of History. *Advances in the History of Rhetoric*, v. 15, n. 1, p. 53–76, 1 jan. 2012. [Link](https://doi.org/10.1080/15362426.2012.657052).
 
 **Material de apoio**
 
-- EM BREVE
+- Repositórios e plataformas online de fontes históricas e artigos
+    - [Repositório Institucional RIMA – Comunidade CEDIM](http://rima.im.ufrrj.br:8080/jspui/handle/1235813/2)
+    - [Hemeroteca Digital da Biblioteca Nacional]()
+    - [SIAN – Arquivo bacional]()
+
+- Vídeos
+    - [LIVES DA BN | Ferramentas online: a Hemeroteca Digital Brasileira](https://youtu.be/KbUWfeCywg4)
 
 ### Semana 6
 | Aula | Data       | Tema |
