@@ -6,7 +6,7 @@ author:
       email: profericbrasil@gmail.com
       orcid: 0000-0001-5067-8475
       affiliation: UNILAB
-date: 2025-08-13
+date: today
 date-format: full
 description: "Plano de Ensino da disciplina Introdução à História Digital, ministrada no PPGIHD/UFRRJ em 2025.2."
 lang: pt-BR
@@ -68,7 +68,8 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
-- Links oficiais das ferramentas apresentadas na oficina:
+- Links das ferramentas apresentadas na oficina:
+    - [Bash](https://www.gnu.org/software/bash/) / [PowerShell](https://learn.microsoft.com/pt-br/powershell/)
     - [Tropy](https://tropy.org/)
     - [Zotero](https://www.zotero.org/)
     - [Omeka](https://omeka.org/)
@@ -85,10 +86,11 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
     - [Uma introdução ao Markdown e suas possibilidades no ensino e divulgação científica | Eric Brasil](https://www.youtube.com/watch?v=TtnATYla2gE)
 
 - Tutoriais:
-   - [Sarah Simpkin, "Introdução ao Markdown", traduzido por João Gilberto Neves Saraiva, Programming Historian em português 1 (2021), https://doi.org/10.46430/phpt0008.](https://programminghistorian.org/pt/licoes/introducao-ao-markdown)
-   - [Dennis Tenen e Grant Wythoff, "Autoria Sustentável em Texto Simples usando Pandoc e Markdown", traduzido por Gabriela Kucuruza, Programming Historian em português 2 (2022), https://doi.org/10.46430/phpt0036.](https://programminghistorian.org/pt/licoes/autoria-sustentavel-texto-simples-pandoc-markdown)
-   - [Miriam Posner, "Introdução ao Omeka.net", traduzido por Gabriela Kucuruza, Programming Historian em português 1 (2021), https://doi.org/10.46430/phpt0011.](https://programminghistorian.org/pt/licoes/introducao-omeka-net)
-   - [Miriam Posner e Megan R. Brett, "Criar uma Exposição Omeka", traduzido por Gabriela Kucuruza, Programming Historian em português 1 (2021), https://doi.org/10.46430/phpt0012.](https://programminghistorian.org/pt/licoes/criar-exposicao-omeka)
+    - Ian Milligan e James Baker, "Introdução à Linha de Comando Bash", traduzido por Eric Brasil, Programming Historian em português 4 (2024), [https://doi.org/10.46430/phpt0049](https://programminghistorian.org/pt/licoes/introducao-linha-comando-bash).
+   - Sarah Simpkin, "Introdução ao Markdown", traduzido por João Gilberto Neves Saraiva, Programming Historian em português 1 (2021), [https://doi.org/10.46430/phpt0008.](https://programminghistorian.org/pt/licoes/introducao-ao-markdown)
+   - Dennis Tenen e Grant Wythoff, "Autoria Sustentável em Texto Simples usando Pandoc e Markdown", traduzido por Gabriela Kucuruza, Programming Historian em português 2 (2022), [https://doi.org/10.46430/phpt0036.](https://programminghistorian.org/pt/licoes/autoria-sustentavel-texto-simples-pandoc-markdown)
+   - Miriam Posner, "Introdução ao Omeka.net", traduzido por Gabriela Kucuruza, Programming Historian em português 1 (2021), [https://doi.org/10.46430/phpt0011.](https://programminghistorian.org/pt/licoes/introducao-omeka-net)
+   - Miriam Posner e Megan R. Brett, "Criar uma Exposição Omeka", traduzido por Gabriela Kucuruza, Programming Historian em português 1 (2021), [https://doi.org/10.46430/phpt0012.](https://programminghistorian.org/pt/licoes/criar-exposicao-omeka)
 
 ### Semana 4
 | Aula | Data       | Tema |
@@ -97,7 +99,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
-- Links oficiais das ferramentas apresentadas na oficina:
+- Links das ferramentas apresentadas na oficina:
     - [Git](https://git-scm.com/)
     - [GitHub](github.com)
     - [Zenodo](https://zenodo.org/)
@@ -114,11 +116,17 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
     - [TimelineJS](https://timeline.knightlab.com/)
     - [FFmpeg](https://ffmpeg.org/)
 
-- Vídeos de apoio:
-    - []()
-
 - Tutoriais:
-    - []()
+    - Eric Brasil, "Git como ferramenta metodológica em projetos de História (parte 1)", Programming Historian em português 3 (2023), [https://doi.org/10.46430/phpt0045](https://programminghistorian.org/pt/licoes/git-ferramenta-metodologica-projetos-historia-1).
+    - Jim Clifford, Josh MacFadyen, e Daniel Macfarlane, "Instalando o QGIS e adicionando camadas", traduzido por Luanna Kaori, Programming Historian em português 5 (2025), [https://doi.org/10.46430/phpt0052](https://programminghistorian.org/pt/licoes/qgis-camadas).
+    - Justin Colson, "Geocodificando Dados Históricos com o QGIS", traduzido por Luanna Kaori, Programming Historian em português 5 (2025), [https://doi.org/10.46430/phpt0051](https://programminghistorian.org/pt/licoes/?search=qgis).
+    - Jim Clifford, Josh MacFadyen, e Daniel Macfarlane, "Georreferenciamento com o QGIS 3.20", traduzido por Ângela Pité, Programming Historian em português 3 (2023), [https://doi.org/10.46430/phpt0039](https://programminghistorian.org/pt/licoes/georreferenciamento-qgis).
+    - Silvia Gutiérrez De la Torre, "Corpus Analysis with Voyant Tools," translated by Eime Javier Cisneros Brito and Alberto Santiago Martínez, Programming Historian 14 (2025), [https://doi.org/10.46430/phen0128](https://programminghistorian.org/en/lessons/corpus-analysis-voyant-tools). 
+    - Heather Froehlich, "Corpus Analysis with Antconc," Programming Historian 4 (2015), [https://doi.org/10.46430/phen0043](https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc).
+    - Seth van Hooland, Ruben Verborgh, e Max De Wilde, "Limpar dados com o OpenRefine", traduzido por Francisco Nabais, Programming Historian em português 3 (2023), [https://doi.org/10.46430/phpt0038](https://programminghistorian.org/pt/licoes/limpar-dados-openrefine).
+    - Evan Peter Williamson, "Fetching and Parsing Data from the Web with OpenRefine," Programming Historian 6 (2017), [https://doi.org/10.46430/phen0065](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine).
+    - Brandon Walsh, "Editing Audio with Audacity," Programming Historian 5 (2016), [https://doi.org/10.46430/phen0050](https://programminghistorian.org/en/lessons/editing-audio-with-audacity).
+    - Dave Rodriguez, "Introduction to Audiovisual Transcoding, Editing, and Color Analysis with FFmpeg," Programming Historian 7 (2018), [https://doi.org/10.46430/phen0077](https://programminghistorian.org/en/lessons/introduction-to-ffmpeg).
 
 ### Semana 5
 | Aula | Data       | Tema |
@@ -151,14 +159,22 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 |:----:|:----------:|:-------------------------------------------------------------|
 | 6    | 17/09/2025 | Oficina II: coleta e organização de dados |
 
-**Bibliografia Básica**
-- EM BREVE
-
-**Bibliografia Complementar**
-- EM BREVE
 
 **Material de apoio**
-- EM BREVE
+
+- Ferramentas
+    - [pyHDB](ericbrasil.com.br/pyhdb) - Biblioteca Python para coleta de dados da Hemeroteca Digital Brasileira
+    - [Ferramentas Scielo v2](https://labhdufba.github.io/ferramentas_scielo_v2/) - Ferramentas para coleta e organização de dados da SciELO
+    - [Instaloader](https://instaloader.github.io/) - Ferramenta para coleta de dados do Instagram
+    - [resumos-anpuh-cli](https://github.com/ericbrasiln/resumos-anpuh-cli) - Ferramenta para coleta de resumos de anais da ANPUH
+    - [Exemplos de relatórios de registro metodológico geral](https://ericbrasil.com.br/hemdig-framework/part3/capitulo7/sec71.html) - Exemplos de relatórios de registro metodológico para coleta e organização de dados
+
+- Tutoriais:
+    - James Baker, "Preservar os seus dados de investigação", traduzido por Márcia T. Cavalcanti, Programming Historian em português 1 (2021), [https://doi.org/10.46430/phpt0001](https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao).
+    - William J. Turkel e Adam Crymble, "Noções básicas de páginas web e HTML", traduzido por Aracele Torres, Programming Historian em português 1 (2021), [https://doi.org/10.46430/phpt0002](https://programminghistorian.org/pt/licoes/nocoes-basicas-paginas-web-html).
+    - Ian Milligan, "Download Automático com Wget", traduzido por Mariana Affonso Penna, Programming Historian em português 4 (2024), [ https://doi.org/10.46430/phpt0047. ](https://programminghistorian.org/pt/licoes/download-automatico-wget).  
+    - William J. Turkel e Adam Crymble, "Download de páginas Web com Python", traduzido por Bruno Gasparotto Ponne, Programming Historian em português 1 (2021), [https://doi.org/10.46430/phpt0010](https://programminghistorian.org/pt/licoes/download-paginas-web-python).
+    - Caleb McDaniel, "Data Mining the Internet Archive Collection," Programming Historian 3 (2014), [https://doi.org/10.46430/phen0035](https://programminghistorian.org/en/lessons/data-mining-the-internet-archive).
 
 ### Semana 7
 | Aula | Data       | Tema |
@@ -176,6 +192,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 - BŁOCH, Agata; VASQUES FILHO, Demival; BOJANOWSKI, Michał. Networks from archives: Reconstructing networks of official correspondence in the early modern Portuguese empire. *Social Networks*, 24 set. 2020. 
 
 **Material de apoio**
+
 - EM BREVE
 
 ### Semana 8
@@ -184,12 +201,15 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 8    | 01/10/2025 | Oficina III: OCR e leitura distante com NLP para a História |
 
 **Bibliografia Básica**
+
 - EM BREVE
 
 **Bibliografia Complementar**
+
 - EM BREVE
 
 **Material de apoio**
+
 - EM BREVE
 
 ### Semana 9
@@ -198,12 +218,15 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 9    | 08/10/2025 | Repensando a pesquisa histórica na virada das IAs Generativas |
 
 **Bibliografia Básica**
+
 - EM BREVE
 
 **Bibliografia Complementar**
+
 - EM BREVE
 
 **Material de apoio**
+
 - EM BREVE
 
 ### Semana 10
@@ -219,6 +242,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 10   | 22/10/2025 | Oficina IV: Inteligência Artificial - conceitos e usos |
 
 **Bibliografia Básica**
+
 - EM BREVE
 
 **Bibliografia Complementar**
@@ -247,12 +271,15 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 12   | 05/11/2025 | Oficina V: Rodando LLMs localmente |
 
 **Bibliografia Básica**
+
 - EM BREVE
 
 **Bibliografia Complementar**
+
 - EM BREVE
 
 **Material de apoio**
+
 - EM BREVE
 
 ### Semana 14
