@@ -62,8 +62,13 @@
   color: #1c140d; /* Texto escuro */
 }
 
-/* Estilizando os blocos de código */
+/* Estilizando os blocos de código para nord theme */
 .reveal pre {
-  background-color: #f5f5f5; /* Fundo escuro */
-  color: #f4c2c2; /* Texto rosa pastel */
+  background-color: #2e3440; /* Fundo escuro */
+  color: #d8dee9; /* Texto claro */
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
+  font-size: 0.9em;
+  overflow-x: auto;
 }
