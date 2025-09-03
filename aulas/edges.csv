@@ -1,0 +1,6 @@
+Source,Target,Type
+A,B,Directed
+A,C,Directed
+B,D,Directed
+C,D,Directed
+D,E,Directed

@@ -27,6 +27,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #d8dee9; background-color: #2e3440; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #d8dee9; } /* Normal */
+    code span.al { color: #bf616a; background-color: #3b4252; font-weight: bold; } /* Alert */
+    code span.an { color: #d08770; } /* Annotation */
+    code span.at { color: #8fbcbb; } /* Attribute */
+    code span.bn { color: #b48ead; } /* BaseN */
+    code span.bu { color: #88c0d0; font-style: italic; } /* BuiltIn */
+    code span.cf { color: #81a1c1; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #ebcb8b; } /* Char */
+    code span.cn { color: #eceff4; font-weight: bold; } /* Constant */
+    code span.co { color: #616e88; } /* Comment */
+    code span.cv { color: #e5e9f0; } /* CommentVar */
+    code span.do { color: #5e81ac; } /* Documentation */
+    code span.dt { color: #81a1c1; } /* DataType */
+    code span.dv { color: #b48ead; } /* DecVal */
+    code span.er { color: #bf616a; text-decoration: underline; } /* Error */
+    code span.ex { color: #8fbcbb; font-weight: bold; } /* Extension */
+    code span.fl { color: #b48ead; } /* Float */
+    code span.fu { color: #88c0d0; } /* Function */
+    code span.im { color: #a3be8c; } /* Import */
+    code span.in { color: #ebcb8b; } /* Information */
+    code span.kw { color: #81a1c1; font-weight: bold; } /* Keyword */
+    code span.op { color: #81a1c1; } /* Operator */
+    code span.ot { color: #8fbcbb; } /* Other */
+    code span.pp { color: #5e81ac; } /* Preprocessor */
+    code span.re { color: #88c0d0; background-color: #3b4252; } /* RegionMarker */
+    code span.sc { color: #ebcb8b; } /* SpecialChar */
+    code span.ss { color: #d08770; } /* SpecialString */
+    code span.st { color: #a3be8c; } /* String */
+    code span.va { color: #5e81ac; } /* Variable */
+    code span.vs { color: #a3be8c; } /* VerbatimString */
+    code span.wa { color: #bf616a; } /* Warning */
   </style>
   <link rel="stylesheet" href="4_files/libs/revealjs/dist/theme/quarto-4324c2195abf5257f5b183358d37c212.css">
   <link href="4_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -147,7 +213,7 @@
 </li>
 <li><a href="https://zenodo.org/">Zenodo</a><br>
 </li>
-<li><a href="https://osf.io/">OSF (Open Science Framework)</a><br>
+<li><a href="https://osf.io/">OSF</a><br>
 </li>
 <li><a href="https://gephi.org/">Gephi</a><br>
 </li>
@@ -191,7 +257,7 @@
 </section>
 <section id="controle-de-versão-e-ciência-aberta-1" class="slide level2 center">
 <h2>2. Controle de versão e ciência aberta</h2>
-<h3 id="princípios-fair">🔑 Princípios FAIR</h3>
+<h3 id="princípios-fair"><a href="https://www.go-fair.org/fair-principles/">Princípios FAIR</a></h3>
 <ul>
 <li><strong>F</strong>indable → Dados localizáveis<br>
 </li>
@@ -231,6 +297,17 @@ Sistema de <strong>controle de versão distribuído</strong>, usado para registr
 <li><strong>Leitura recomendada</strong><br>
 Eric Brasil, <em>“Git como ferramenta metodológica em projetos de História (parte 1)”</em>, <strong>Programming Historian em português</strong>, 3 (2023). <a href="https://doi.org/10.46430/phpt0045">https://doi.org/10.46430/phpt0045</a></li>
 </ul>
+</section>
+<section id="git-3" class="slide level2 center">
+<h2>2.1 Git</h2>
+<p>Comandos básicos:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="fu">git</span> init          <span class="co"># Inicia um repositório Git</span></span>
+<span id="cb1-2"><a href=""></a><span class="fu">git</span> add <span class="op">&lt;</span>arquivo<span class="op">&gt;</span>  <span class="co"># Adiciona arquivo(s) para o próximo commit</span></span>
+<span id="cb1-3"><a href=""></a><span class="fu">git</span> commit       <span class="co"># Salva mudanças no repositório</span></span>
+<span id="cb1-4"><a href=""></a><span class="fu">git</span> push         <span class="co"># Envia mudanças para o repositório remoto</span></span>
+<span id="cb1-5"><a href=""></a><span class="fu">git</span> pull         <span class="co"># Atualiza o repositório local com mudanças remotas</span></span>
+<span id="cb1-6"><a href=""></a><span class="fu">git</span> status       <span class="co"># Verifica o estado dos arquivos</span></span>
+<span id="cb1-7"><a href=""></a><span class="fu">git</span> log          <span class="co"># Mostra o histórico de commits</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="fluxo-básico-de-trabalho-com-git" class="slide level2 center">
 <h2>Fluxo básico de trabalho com Git</h2>
@@ -286,8 +363,16 @@ Repositório aberto para <strong>compartilhamento e preservação de pesquisas</
 </ul></li>
 </ul>
 </section>
+<section id="zenodo---exemplo" class="slide level2 center">
+<h2>2.3 Zenodo - exemplo</h2>
+<ul>
+<li>Exemplo de repositório no Zenodo:<br>
+<a href="https://zenodo.org/records/8180808">pyHDB</a></li>
+</ul>
+<p><a href="https://doi.org/10.5281/zenodo.8180808"><img data-src="https://zenodo.org/badge/DOI/10.5281/zenodo.8180808.svg"></a></p>
+</section>
 <section id="osf-open-science-framework" class="slide level2 center">
-<h2>2.4 <a href="https://osf.io/static/img/osf-logo.png">OSF (Open Science Framework)</a></h2>
+<h2>2.4 <a href="https://osf.io/">OSF (Open Science Framework)</a></h2>
 
 <img data-src="https://storage.googleapis.com/cos-osf-prod-cdn-us/assets/cos-shield.png" class="r-stretch"><ul>
 <li><strong>O que é?</strong><br>
@@ -347,6 +432,61 @@ Muito usado em Humanidades Digitais para mapear conexões entre pessoas, lugares
 </ul></li>
 </ul>
 </section>
+<section class="slide level2">
+
+<h3 class="center" id="gephi---instalação">3.1 Gephi - instalação</h3>
+<ul>
+<li>Baixar em: <a href="https://gephi.org/users/download/">https://gephi.org/users/download/</a></li>
+<li>Siga as instruções para seu sistema operacional (Windows, macOS, Linux): <a href="https://gephi.org/users/install/">https://gephi.org/users/install/</a></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 class="center" id="gephi---referência">3.1 Gephi - referência</h3>
+<ul>
+<li><a href="https://www.martingrandjean.ch/gephi-introduction/">Martin Grandjean, GEPHI – Introduction to Network Analysis and Visualization</a></li>
+</ul>
+</section>
+<section id="lógica-de-nodes-e-edges" class="slide level2 center">
+<h2>3.1.1 Lógica de Nodes e Edges</h2>
+<ul>
+<li><strong>Nodes (nós)</strong>
+<ul>
+<li>Representam <strong>entidades</strong> (pessoas, lugares, documentos, conceitos).<br>
+</li>
+<li>São os pontos ou círculos do grafo.</li>
+</ul></li>
+<li><strong>Edges (arestas)</strong>
+<ul>
+<li>Representam as <strong>relações</strong> entre os nós.<br>
+</li>
+<li>Podem ser <strong>direcionadas</strong> (A → B) ou <strong>não direcionadas</strong> (A — B).<br>
+</li>
+<li>Podem ter <strong>peso</strong> (intensidade da relação).</li>
+</ul></li>
+</ul>
+</section>
+<section id="lógica-de-nodes-e-edges-1" class="slide level2 center">
+<h2>3.1.1 Lógica de Nodes e Edges</h2>
+<p>💡 Em Gephi, redes = <strong>Nodes + Edges</strong> → possibilitam visualizar <strong>estruturas e padrões</strong>.</p>
+</section>
+<section id="exemplo-redes-de-correspondência" class="slide level2 center">
+<h2>3.1.2 Exemplo: redes de correspondência</h2>
+<ul>
+<li>Cada <strong>intelectual</strong> é um <strong>node</strong> (nó).<br>
+</li>
+<li>Cada <strong>carta enviada</strong> é uma <strong>edge</strong> (aresta) conectando dois nós.<br>
+</li>
+<li>É possível analisar:
+<ul>
+<li><strong>Quem escreve mais cartas</strong> (grau de centralidade).<br>
+</li>
+<li><strong>Quem conecta diferentes grupos</strong> (nós de ponte).<br>
+</li>
+<li>A formação de <strong>comunidades epistolares</strong>.</li>
+</ul></li>
+</ul>
+</section>
 <section id="qgis" class="slide level2 center">
 <h2>3.2 QGIS</h2>
 
@@ -369,6 +509,13 @@ Permite criar, editar, visualizar e analisar mapas digitais.</li>
 </li>
 <li>Código aberto, gratuito e com ampla comunidade de suporte.</li>
 </ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 class="center" id="qgis---instalação">3.2 QGIS - instalação</h3>
+<ul>
+<li>Baixar em: <a href="https://qgis.org/download/">https://qgis.org/download/</a></li>
 </ul>
 </section>
 <section class="slide level2">
@@ -475,6 +622,13 @@ Muito usada para preparar bases textuais ou tabulares antes da análise.</li>
 </li>
 <li>Recurso de <strong>clustering</strong> para identificar variações e duplicatas.</li>
 </ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 class="center" id="openrefine---instalação">4.3 OpenRefine - instalação</h3>
+<ul>
+<li>Siga as instruções: <a href="https://openrefine.org/docs/manual/installing">https://openrefine.org/docs/manual/installing</a></li>
 </ul>
 </section>
 <section class="slide level2">
