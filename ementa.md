@@ -179,26 +179,24 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 ### Semana 7
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 7    | 24/09/2025 | Codificação na geração, classificação e análise de informação histórica |
+| 7    | 01/10/2025 | Codificação na geração, classificação e análise de informação histórica |
 
 **Bibliografia Básica**
 
 - BLOCH, Marc. **Apologia da história ou o ofício do historiador**. Rio de Janeiro: Jorge Zahar, 2001. Pp. 51-87
-- FORTES, Alexandre; ALVIM, Leandro Guimarães Marques. Evidências, códigos e classificações: o ofício do historiador e o mundo digital. *Esboços: histórias em contextos globais*, v. 27, n. 45, p. 207–227, 19 jun. 2020. 
+- FORTES, Alexandre; ALVIM, Leandro Guimarães Marques. Evidências, códigos e classificações: o ofício do historiador e o mundo digital. *Esboços: histórias em contextos globais*, v. 27, n. 45, p. 207–227, 19 jun. 2020. [LINK](https://periodicos.ufsc.br/index.php/esbocos/article/view/2175-7976.2020.e68270).
 
 **Bibliografia Complementar**
 
-- ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. abr. 2022. 
-- BŁOCH, Agata; VASQUES FILHO, Demival; BOJANOWSKI, Michał. Networks from archives: Reconstructing networks of official correspondence in the early modern Portuguese empire. *Social Networks*, 24 set. 2020. 
+- ZILIO, Leonardo; FINATTO, Maria; VIEIRA, Renata. Named Entity Recognition Applied to Portuguese Texts from the XVIII Century. abr. 2022. [LINK](https://dspace.uevora.pt/rdpc/bitstream/10174/32165/1/paper10-NER.pdf).
+- BŁOCH, Agata; VASQUES FILHO, Demival; BOJANOWSKI, Michał. Networks from archives: Reconstructing networks of official correspondence in the early modern Portuguese empire. *Social Networks*, 24 set. 2020. [LINK](https://www.sciencedirect.com/science/article/abs/pii/S0378873320300769).
 
-**Material de apoio**
 
-- EM BREVE
 
 ### Semana 8
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 8    | 01/10/2025 | Oficina III: OCR e leitura distante com NLP para a História |
+| 8    | 08/10/2025 | Oficina III: OCR e leitura distante com NLP para a História |
 
 **Bibliografia Básica**
 
@@ -213,9 +211,21 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 - EM BREVE
 
 ### Semana 9
+
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 9    | 08/10/2025 | Repensando a pesquisa histórica na virada das IAs Generativas |
+| 9    | 15/10/2025 | Exercícios práticos [Atividades assíncronas] |
+
+**Material de apoio**
+
+- EM BREVE
+
+
+### Semana 10
+
+| Aula | Data       | Tema |
+|:----:|:----------:|:-------------------------------------------------------------|
+| 10    | 22/10/2025 | Repensando a pesquisa histórica na virada das IAs Generativas |
 
 **Bibliografia Básica**
 
@@ -229,17 +239,12 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 - EM BREVE
 
-### Semana 10
-| Aula | Data       | Tema |
-|:----:|:----------:|:-------------------------------------------------------------|
-| -    | 15/10/2025 | **Sem aula** – Feriado |
-
 ---
 
 ### Semana 11
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 10   | 22/10/2025 | Oficina IV: Inteligência Artificial - conceitos e usos |
+| 11   | 29/10/2025 | Oficina IV: Inteligência Artificial - conceitos e usos |
 
 **Bibliografia Básica**
 
@@ -254,7 +259,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 ### Semana 12
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 11   | 29/10/2025 | Por uma hermenêutica digital aumentada: RAG na pesquisa |
+| 12   | 05/11/2025 | Por uma hermenêutica digital aumentada: RAG na pesquisa |
 
 **Bibliografia Básica**
 - EM BREVE
@@ -268,7 +273,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 ### Semana 13
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 12   | 05/11/2025 | Oficina V: Rodando LLMs localmente |
+| 13   | 12/11/2025 | Oficina V: Rodando LLMs localmente |
 
 **Bibliografia Básica**
 
@@ -285,7 +290,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 ### Semana 14
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 13   | 12/11/2025 | Ensino de história, história pública e divulgação num mundo de IAs |
+| 14   | 19/11/2025 | Ensino de história, história pública e divulgação num mundo de IAs |
 
 **Bibliografia Básica**
 - EM BREVE
@@ -299,21 +304,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 ### Semana 15
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 14   | 19/11/2025 | Oficina VI: a definir |
-
-**Bibliografia Básica**
-- EM BREVE
-
-**Bibliografia Complementar**
-- EM BREVE
-
-**Material de apoio**
-- EM BREVE
-
-### Semana 16
-| Aula | Data       | Tema |
-|:----:|:----------:|:-------------------------------------------------------------|
-| 15   | 26/11/2025 | Novos desafios éticos e os riscos das IAs |
+| 15   | 26/11/2025 | Oficina VI: a definir |
 
 **Bibliografia Básica**
 - EM BREVE
@@ -326,4 +317,4 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 ---
 
-![](https://omekas.im.ufrrj.br/files/original/aa99fe174fd6f97dd42ee78a359a46428b9997be.png)
+![](banner.png)
