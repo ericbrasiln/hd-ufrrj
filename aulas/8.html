@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="8_files/libs/revealjs/dist/theme/quarto-2d8b0070aa9997a4d56ae973e513428a.css">
+  <link rel="stylesheet" href="8_files/libs/revealjs/dist/theme/quarto-d3c6e7ca7f492146a4d60609f779c2a3.css">
   <link href="8_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="8_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="8_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -209,7 +209,13 @@ Prof.&nbsp;Eric Brasil
     </div>
 </div>
 
-  <p class="date">segunda-feira, 6 de outubro de 2025</p>
+  <p class="date">terça-feira, 7 de outubro de 2025</p>
+</section>
+<section id="acesse-os-slides-da-aula" class="slide level2 center">
+<h2>Acesse os slides da aula</h2>
+<div class="center-image">
+<p><img data-src="imgs/qrc8.png"></p>
+</div>
 </section>
 <section id="estrutura-da-oficina" class="slide level2 center">
 <h2>Estrutura da oficina</h2>
@@ -252,11 +258,6 @@ Prof.&nbsp;Eric Brasil
 <li><a href="https://programminghistorian.org/en/lessons/corpus-analysis-with-spacy">Corpus Analysis with spaCy - Programming Historian</a></li>
 </ul>
 </section>
-<section id="qr-code" class="slide level2 center">
-<h2>QR Code</h2>
-<p>Acesse os materiais completos da oficina:</p>
-
-<img data-src=".png" class="r-stretch"></section>
 <section class="slide level2">
 
 </section>
@@ -376,6 +377,169 @@ Suporta mais de <strong>100 idiomas</strong>, incluindo o português.</p>
 </section>
 <section class="slide level2">
 
+</section></section>
+<section>
+<section id="parte-2-processamento-de-linguagem-natural" class="title-slide slide level1 center">
+<h1>Parte 2: Processamento de Linguagem Natural</h1>
+
+</section>
+<section id="o-que-é-nlp" class="slide level2 center">
+<h2>O que é NLP?</h2>
+<blockquote>
+<p><strong>NLP (Natural Language Processing)</strong> é o campo da ciência computacional que busca ensinar máquinas a <strong>ler, compreender e gerar linguagem humana</strong>.</p>
+</blockquote>
+</section>
+<section id="aplicações-comuns" class="slide level2 center">
+<h2>Aplicações comuns</h2>
+<ul>
+<li>Tradução automática (Google Translate)<br>
+</li>
+<li>Análise de sentimentos<br>
+</li>
+<li>Assistentes de voz (Alexa, Siri, ChatGPT)<br>
+</li>
+<li><strong>Extração de informação histórica de textos digitalizados</strong></li>
+</ul>
+</section>
+<section id="nlp-nas-humanidades-digitais" class="slide level2 center">
+<h2>NLP nas Humanidades Digitais</h2>
+<p><strong>Por que o NLP importa para historiadores?</strong></p>
+<ul>
+<li>Permite analisar <strong>grandes volumes de texto</strong> (jornais, cartas, relatórios).<br>
+</li>
+<li>Facilita <strong>descobrir padrões discursivos</strong> e mudanças semânticas ao longo do tempo.<br>
+</li>
+<li>Amplia a compreensão sobre <strong>memória, discurso e poder</strong> em arquivos digitais.</li>
+</ul>
+<p>📚 Termo-chave: <strong>“Leitura Distante”</strong> (Franco Moretti)</p>
+</section>
+<section id="fluxo-de-trabalho" class="slide level2 center">
+<h2>Fluxo de trabalho</h2>
+<p>1️⃣ OCR: converte imagens em texto<br>
+2️⃣ <strong>Pré-processamento textual</strong> (limpeza, tokenização)<br>
+3️⃣ <strong>Análise linguística</strong> (POS tagging, NER, dependências sintáticas)<br>
+4️⃣ Interpretação e visualização de resultados</p>
+<p>📊 Exemplo de pipeline:</p>
+<pre><code>
+Imagem (PDF) → Texto OCR → spaCy → Análise → Gráficos
+</code></pre>
+</section>
+<section id="spacy" class="slide level2 center">
+<h2>spaCy</h2>
+<p>Biblioteca em Python projetada para <strong>análise linguística robusta e rápida</strong>.</p>
+<ul>
+<li>Tokenização, lematização, POS tagging<br>
+</li>
+<li>Reconhecimento de entidades nomeadas (NER)<br>
+</li>
+<li>Análise sintática de dependências<br>
+</li>
+<li>Suporte a múltiplos idiomas (incluindo português 🇧🇷)</li>
+</ul>
+</section>
+<section id="instalação" class="slide level2 center">
+<h2>Instalação</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href=""></a><span class="ex">python3</span> <span class="at">-m</span> venv venv</span>
+<span id="cb4-2"><a href=""></a><span class="bu">source</span> venv/bin/activate</span>
+<span id="cb4-3"><a href=""></a><span class="ex">pip</span> install spacy</span>
+<span id="cb4-4"><a href=""></a><span class="ex">python</span> <span class="at">-m</span> spacy download pt_core_news_lg</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Verifique se o modelo foi instalado corretamente:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href=""></a><span class="ex">python</span> <span class="at">-m</span> spacy validate</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="exemplo-básico" class="slide level2 center">
+<h2>Exemplo básico</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href=""></a><span class="im">import</span> spacy</span>
+<span id="cb6-2"><a href=""></a>nlp <span class="op">=</span> spacy.load(<span class="st">"pt_core_news_lg"</span>)</span>
+<span id="cb6-3"><a href=""></a></span>
+<span id="cb6-4"><a href=""></a>texto <span class="op">=</span> <span class="st">"Em 15 de novembro de 1889, Deodoro da Fonseca proclamou a República do Brasil no Rio de Janeiro."</span></span>
+<span id="cb6-5"><a href=""></a>doc <span class="op">=</span> nlp(texto)</span>
+<span id="cb6-6"><a href=""></a></span>
+<span id="cb6-7"><a href=""></a><span class="cf">for</span> token <span class="kw">in</span> doc:</span>
+<span id="cb6-8"><a href=""></a>    <span class="bu">print</span>(token.text, token.pos_, token.dep_)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="exemplo-básico-1" class="slide level2 center">
+<h2>Exemplo básico</h2>
+<p>📄 Saída esperada:</p>
+<pre><code>Em - ADP - case
+15 - NUM - nummod
+novembro - NOUN - obl
+...</code></pre>
+</section>
+<section id="reconhecimento-de-entidades-nomeadas-ner" class="slide level2 center">
+<h2>Reconhecimento de Entidades Nomeadas (NER)</h2>
+<p>🎯 O NER permite extrair <strong>nomes de pessoas, lugares, datas, instituições</strong> etc.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href=""></a><span class="cf">for</span> ent <span class="kw">in</span> doc.ents:</span>
+<span id="cb8-2"><a href=""></a>    <span class="bu">print</span>(ent.text, ent.label_)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="reconhecimento-de-entidades-nomeadas-ner-1" class="slide level2 center">
+<h2>Reconhecimento de Entidades Nomeadas (NER)</h2>
+<p>📋 Saída:</p>
+<pre><code>15 de novembro de 1889  DATA
+Deodoro da Fonseca       PESSOA
+República do Brasil      LOCAL
+Rio de Janeiro           LOCAL</code></pre>
+</section>
+<section id="visualização-com-displacy" class="slide level2 center">
+<h2>Visualização com displaCy</h2>
+<p>O spaCy possui um visualizador embutido para NER:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href=""></a><span class="im">from</span> spacy <span class="im">import</span> displacy</span>
+<span id="cb10-2"><a href=""></a>displacy.render(doc, style<span class="op">=</span><span class="st">"ent"</span>, jupyter<span class="op">=</span><span class="va">True</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="limpeza-e-preparação-de-dados" class="slide level2 center">
+<h2>Limpeza e preparação de dados</h2>
+<p>🧹 Antes da análise, é essencial:</p>
+<ul>
+<li>Remover caracteres especiais, HTML e stopwords</li>
+<li>Normalizar acentuação e capitalização</li>
+<li>Dividir o texto em parágrafos ou sentenças coerentes</li>
+</ul>
+</section>
+<section id="exemplo-aplicado" class="slide level2 center">
+<h2>Exemplo aplicado</h2>
+<p>Usando um corpus da <strong>Hemeroteca Digital Brasileira</strong> (OCR):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href=""></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">"artigo1890.txt"</span>) <span class="im">as</span> f:</span>
+<span id="cb11-2"><a href=""></a>    texto <span class="op">=</span> f.read()</span>
+<span id="cb11-3"><a href=""></a></span>
+<span id="cb11-4"><a href=""></a>doc <span class="op">=</span> nlp(texto)</span>
+<span id="cb11-5"><a href=""></a>entidades <span class="op">=</span> [(ent.text, ent.label_) <span class="cf">for</span> ent <span class="kw">in</span> doc.ents]</span>
+<span id="cb11-6"><a href=""></a><span class="bu">print</span>(entidades[:<span class="dv">10</span>])</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="exemplo-aplicado-1" class="slide level2 center">
+<h2>Exemplo aplicado</h2>
+<p>Permite mapear:</p>
+<ul>
+<li>Pessoas mencionadas</li>
+<li>Cidades e regiões</li>
+<li>Datas e eventos históricos</li>
+</ul>
+</section>
+<section id="desafios-para-o-português" class="slide level2 center">
+<h2>Desafios para o português</h2>
+<p>⚠️ NLP em português enfrenta dificuldades específicas:</p>
+<ul>
+<li>Ortografia antiga e variações regionais</li>
+<li>Palavras compostas e nomes próprios históricos</li>
+<li>Escassez de modelos treinados com corpora históricos</li>
+</ul>
+</section>
+<section id="soluções" class="slide level2 center">
+<h2>Soluções?</h2>
+<ul>
+<li>Treinar modelos com <em>datasets</em> históricos</li>
+<li>Combinar NLP + métodos qualitativos (leitura próxima)</li>
+</ul>
+</section>
+<section id="discussão" class="slide level2 center">
+<h2>Discussão</h2>
+<blockquote>
+<p>Como o NLP pode transformar a forma como lemos o passado?</p>
+</blockquote>
+<ul>
+<li>Que riscos há em “automatizar” a leitura?</li>
+<li>O que se perde (ou ganha) ao delegar parte da análise textual a modelos?</li>
+<li>Como equilibrar escalabilidade e interpretação crítica?</li>
+<li>Com o advento das IAs generativas (ex: ChatGPT), qual o futuro do NLP nas Humanidades Digitais?</li>
+</ul>
 
 </section></section>
     </div>
