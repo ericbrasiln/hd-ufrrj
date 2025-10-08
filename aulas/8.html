@@ -209,7 +209,7 @@ Prof.&nbsp;Eric Brasil
     </div>
 </div>
 
-  <p class="date">terça-feira, 7 de outubro de 2025</p>
+  <p class="date">quarta-feira, 8 de outubro de 2025</p>
 </section>
 <section id="acesse-os-slides-da-aula" class="slide level2 center">
 <h2>Acesse os slides da aula</h2>
@@ -492,25 +492,6 @@ Rio de Janeiro           LOCAL</code></pre>
 <li>Remover caracteres especiais, HTML e stopwords</li>
 <li>Normalizar acentuação e capitalização</li>
 <li>Dividir o texto em parágrafos ou sentenças coerentes</li>
-</ul>
-</section>
-<section id="exemplo-aplicado" class="slide level2 center">
-<h2>Exemplo aplicado</h2>
-<p>Usando um corpus da <strong>Hemeroteca Digital Brasileira</strong> (OCR):</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href=""></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">"artigo1890.txt"</span>) <span class="im">as</span> f:</span>
-<span id="cb11-2"><a href=""></a>    texto <span class="op">=</span> f.read()</span>
-<span id="cb11-3"><a href=""></a></span>
-<span id="cb11-4"><a href=""></a>doc <span class="op">=</span> nlp(texto)</span>
-<span id="cb11-5"><a href=""></a>entidades <span class="op">=</span> [(ent.text, ent.label_) <span class="cf">for</span> ent <span class="kw">in</span> doc.ents]</span>
-<span id="cb11-6"><a href=""></a><span class="bu">print</span>(entidades[:<span class="dv">10</span>])</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="exemplo-aplicado-1" class="slide level2 center">
-<h2>Exemplo aplicado</h2>
-<p>Permite mapear:</p>
-<ul>
-<li>Pessoas mencionadas</li>
-<li>Cidades e regiões</li>
-<li>Datas e eventos históricos</li>
 </ul>
 </section>
 <section id="desafios-para-o-português" class="slide level2 center">
