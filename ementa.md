@@ -198,27 +198,25 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 |:----:|:----------:|:-------------------------------------------------------------|
 | 8    | 08/10/2025 | Oficina III: OCR e leitura distante com NLP para a História |
 
-**Bibliografia Básica**
+**Repositórios e Ferramentas**
 
-- EM BREVE
+- [gImageReader](https://github.com/manisandro/gImageReader)  
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)  
+- [spaCy](https://spacy.io/)  
 
-**Bibliografia Complementar**
+**Tutoriais**
 
-- EM BREVE
-
-**Material de apoio**
-
-- EM BREVE
+- [Instalando gImageReader no Windows](https://youtu.be/_7eqj01Hn0M?si=nW_9p_3n38OHJtHX)
+- [Workshop de gImageReader](https://youtu.be/ZomLnDje3BA?si=WoW-R6nEbd_Ra_pf)
+- [Instalando Python no Windows 11](https://youtu.be/QPmIsKgdifI?si=UytlrpkuV49BmDZh)
+- [Instalando o VS Code no Windows 11](https://youtu.be/VyY1xDSl6wU?si=_k3Gty6RJYl3Vzm3)
+- [Corpus Analysis with spaCy - Programming Historian](https://programminghistorian.org/en/lessons/corpus-analysis-with-spacy)
 
 ### Semana 9
 
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 9    | 15/10/2025 | Exercícios práticos [Atividades assíncronas] |
-
-**Material de apoio**
-
-- EM BREVE
 
 
 ### Semana 10
@@ -229,63 +227,52 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Bibliografia Básica**
 
-- EM BREVE
+- BONALDO, Rodrigo Bragio. As palavras e os tokens: Projeção vetorial aplicada ao estudo da semântica dos tempos históricos. Revista de Teoria da História, v. 27, n. 1, p. 7–50, 4 ago. 2024. [Link](https://revistas.ufg.br/teoria/article/view/79370).
 
 **Bibliografia Complementar**
 
-- EM BREVE
-
-**Material de apoio**
-
-- EM BREVE
+- SANCHES, Danielle. Inteligência artificial generativa e narrativas historiográficas: a importância das humanidades digitais para análise visual do golpe de 1964 no Brasil. Boletim do Tempo Presente, v. 13, n. 2, p. 30–53, 17 set. 2024. [Link](https://periodicos.ufs.br/tempopresente/article/view/22400).
+- UNDERWOOD, Ted; NELSON, Laura K.; WILKENS, Matthew. Can Language Models Represent the Past without Anachronism? arXiv, , 28 abr. 2025. Disponível em: <http://arxiv.org/abs/2505.00030>. Acesso em: 21 maio. 2025. [Link](https://arxiv.org/abs/2505.00030).
 
 ---
 
 ### Semana 11
+
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 11   | 29/10/2025 | Oficina IV: Inteligência Artificial - conceitos e usos |
 
-**Bibliografia Básica**
-
-- EM BREVE
-
 **Bibliografia Complementar**
-- EM BREVE
+
+- TURING, A. M. I.—COMPUTING MACHINERY AND INTELLIGENCE. Mind, v. LIX, n. 236, p. 433–460, 1 out. 1950. [Link](https://courses.cs.umbc.edu/471/papers/turing.pdf)
 
 **Material de apoio**
-- EM BREVE
+
+- LLM: A tecnologia por trás da IA textual - [Youtube](https://www.youtube.com/watch?v=dqTZCknuctk).
 
 ### Semana 12
+
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 12   | 05/11/2025 | Por uma hermenêutica digital aumentada: RAG na pesquisa |
 
 **Bibliografia Básica**
-- EM BREVE
+
+- LEE, Jeong Ha; ALI, Ghazanfar; HWANG, Jae-In. A Retrieval-Augmented Generation System for Accurate and Contextual Historical Analysis: AI-Agent for the Annals of the Joseon Dynasty. Computer Animation and Virtual Worlds, v. 36, n. 4, p. e70048, 2025. 
 
 **Bibliografia Complementar**
-- EM BREVE
 
-**Material de apoio**
-- EM BREVE
+- LEWIS, Patrick et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. arXiv, , 11 abr. 2021. Disponível em: <http://arxiv.org/abs/2005.11401>.
 
 ### Semana 13
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 13   | 12/11/2025 | Oficina V: Rodando LLMs localmente |
 
-**Bibliografia Básica**
-
-- EM BREVE
-
-**Bibliografia Complementar**
-
-- EM BREVE
-
 **Material de apoio**
 
-- EM BREVE
+- Ollama: [https://ollama.com/](https://ollama.com/)
+- O que é o Ollama? - [Youtube](https://www.youtube.com/watch?v=5RIOQuHOihY)
 
 ### Semana 14
 | Aula | Data       | Tema |
@@ -293,24 +280,19 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | 14   | 19/11/2025 | Ensino de história, história pública e divulgação num mundo de IAs |
 
 **Bibliografia Básica**
-- EM BREVE
+
+- NOIRET, Serge. História Pública Digital. *Liinc em Revista*, v. 10, n. 1, 28 maio 2015. 
 
 **Bibliografia Complementar**
-- EM BREVE
 
-**Material de apoio**
-- EM BREVE
+- SILVA, André Luiz da. História e Inteligência Artificial: uma análise sobre as percepções de discentes sobre a automação da pesquisa e do ensino em História. *Revista Diálogo Educacional*, v. 23, n. 83, 9 dez. 2024. 
+
 
 ### Semana 15
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 15   | 26/11/2025 | Oficina VI: a definir |
 
-**Bibliografia Básica**
-- EM BREVE
-
-**Bibliografia Complementar**
-- EM BREVE
 
 **Material de apoio**
 - EM BREVE
