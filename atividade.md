@@ -91,6 +91,14 @@ A [ **Modern Language Association (MLA)** ](https://style.mla.org/citing-generat
 
 ---
 
+📝 **Nota do autor**
+
+Este material foi redigido com o apoio do modelo **GPT-5**, da empresa **OpenAI**, por meio da ferramenta **ChatGPT**, em **5 de novembro de 2025**.  
+
+O uso da IA foi restrito à **organização textual, revisão de estilo e formatação**, mantendo-se a **autoria intelectual e o conteúdo analítico sob responsabilidade exclusiva do professor Eric Brasil**.
+
+---
+
 [⬅️ Voltar à ementa](https://ericbrasil.com.br/hd-ufrrj/ementa)  
 
 ![](https://ericbrasil.com.br/hd-ufrrj/banner.png)
