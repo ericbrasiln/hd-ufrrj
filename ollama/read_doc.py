@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ollama_reader.py
+read_doc.py
 
 Script educativo para analisar o conteúdo de um arquivo .txt com um modelo local do Ollama.
 
@@ -13,12 +13,11 @@ O que ele faz:
 
 Requisitos:
 - Python 3.8+
-- requests (instalar via: pip install -r requirements.txt)
 - Ollama instalado e em execução (https://ollama.com)
   Inicie o servidor antes de rodar: `ollama serve` (ou abra o app no Windows)
 
 Uso:
-    python ollama_reader.py
+    python read_doc.py
 
 Observações:
 - Para arquivos muito grandes, o script faz um corte conservador (ex.: 15.000 caracteres)
@@ -32,7 +31,8 @@ import json
 import requests
 from pathlib import Path
 
-OLLAMA_HOST = "http://localhost:11434"
+OLLAMA_HOST = "http://localhost:11434" # Host padrão do Ollama local
+
 # Limite simples de caracteres do documento a ser enviado no prompt.
 # Ajuste se necessário, conforme o modelo (quanto menor o modelo, menor deve ser o contexto).
 DOC_CHAR_LIMIT = 15000
@@ -42,7 +42,7 @@ def check_server() -> None:
     """Verifica se o servidor do Ollama está acessível."""
     url = f"{OLLAMA_HOST}/api/version"
     try:
-        r = requests.get(url, timeout=5)
+        r = requests.get(url, timeout=5) # Verifica se o servidor responde
         r.raise_for_status()
     except requests.exceptions.RequestException as exc:
         print(
@@ -77,7 +77,10 @@ def list_local_models() -> list[dict]:
 
 
 def choose_model(models: list[dict]) -> str:
-    """Exibe os modelos com numeração e retorna o 'name' do modelo escolhido."""
+    """
+    Exibe os modelos com numeração e retorna o 'name' do modelo escolhido.
+    Pede ao usuário para escolher um número.
+    """
     if not models:
         print(
             "\n[AVISO] Nenhum modelo encontrado localmente.\n"
@@ -106,7 +109,9 @@ def choose_model(models: list[dict]) -> str:
 
 
 def _human_readable_size(num_bytes: int) -> str:
-    """Converte bytes em string legível (KB/MB/GB)."""
+    """
+    Função para converter tamanho em bytes para string legível (KB/MB/GB).
+    """
     try:
         for unit in ["B", "KB", "MB", "GB", "TB"]:
             if num_bytes < 1024.0:
@@ -118,7 +123,9 @@ def _human_readable_size(num_bytes: int) -> str:
 
 
 def ask_file_path() -> Path:
-    """Pede ao usuário o caminho de um arquivo .txt e valida a existência."""
+    """
+    Pede ao usuário o caminho de um arquivo .txt e valida a existência.
+    """
     while True:
         p = input("\nDigite o caminho do arquivo .txt: ").strip().strip('"').strip("'")
         path = Path(p).expanduser()
@@ -134,7 +141,9 @@ def ask_file_path() -> Path:
 
 
 def read_text_file(path: Path) -> str:
-    """Lê o conteúdo de um arquivo de texto com fallback de codificação."""
+    """
+    Lê o conteúdo de um arquivo de texto com fallback de codificação.
+    """
     # Tentamos UTF-8 primeiro; se falhar, tentamos latin-1 (Windows com acentos)
     encodings = ["utf-8", "latin-1"]
     for enc in encodings:
@@ -147,7 +156,9 @@ def read_text_file(path: Path) -> str:
 
 
 def ask_user_prompt() -> str:
-    """Pede o prompt do usuário."""
+    """
+    Pede o prompt do usuário.
+    """
     print("\nAgora escreva o prompt (o que você quer saber sobre o documento):")
     prompt = input("> ").strip()
     if not prompt:
@@ -162,7 +173,7 @@ def build_instruction(user_prompt: str, doc_text: str) -> str:
     Inclui um cabeçalho simples + recorte do documento.
     """
     doc_for_context = doc_text
-    trimmed = ""
+    trimmed = "" # Mensagem de aviso se o documento for recortado
     if len(doc_text) > DOC_CHAR_LIMIT:
         doc_for_context = doc_text[:DOC_CHAR_LIMIT]
         trimmed = (
@@ -222,7 +233,7 @@ def generate_with_ollama(model_name: str, instruction: str) -> str:
 
 
 def main() -> None:
-    print("\n=== Analisador simples com Ollama ===")
+    print("\n=== Analisador de docs simples com Ollama ===")
 
     # 1) Servidor ativo?
     check_server()
