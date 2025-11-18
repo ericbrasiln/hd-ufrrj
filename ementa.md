@@ -5,7 +5,7 @@ author:
     - name: Eric Brasil
       email: profericbrasil@gmail.com
       orcid: 0000-0001-5067-8475
-      affiliation: UNILAB
+      affiliation: UNILAB e PPGIHD/UFRRJ
 date: today
 date-format: full
 description: "Plano de Ensino da disciplina Introdução à História Digital, ministrada no PPGIHD/UFRRJ em 2025.2."
@@ -39,7 +39,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
-- [Slides da aula 1](ericbrasil.com.br/hd-ufrrj/aulas/1)
+- [Slides da aula 1](https://ericbrasil.com.br/hd-ufrrj/aulas/1)
 
 ### Semana 2
 | Aula | Data       | Tema |
@@ -57,7 +57,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
-- [Slides da aula 2](ericbrasil.com.br/hd-ufrrj/aulas/2)
+- [Slides da aula 2](https://ericbrasil.com.br/hd-ufrrj/aulas/2)
 - [História do Código Morse](https://youtu.be/xcjgm6ctzAw?si=KWMzasYxj4Ihz_n3) (YouTube)
 
 ### Semana 3
@@ -68,6 +68,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
+- [Slides da aula 3](https://ericbrasil.com.br/hd-ufrrj/aulas/3)
 - Links das ferramentas apresentadas na oficina:
     - [Bash](https://www.gnu.org/software/bash/) / [PowerShell](https://learn.microsoft.com/pt-br/powershell/)
     - [Tropy](https://tropy.org/)
@@ -99,6 +100,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
+- [Slides da aula 4](https://ericbrasil.com.br/hd-ufrrj/aulas/4)
 - Links das ferramentas apresentadas na oficina:
     - [Git](https://git-scm.com/)
     - [GitHub](github.com)
@@ -133,6 +135,10 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 |:----:|:----------:|:-------------------------------------------------------------|
 | 5    | 10/09/2025 | Fontes digitais, coleções e plataformas online |
 
+**Material de apoio**
+
+- [Slides da aula 5](https://ericbrasil.com.br/hd-ufrrj/aulas/5)
+
 **Bibliografia Básica**
 
 - BRASIL, Eric; NASCIMENTO, Leonardo F. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. *Revista Estudos Históricos*, v. 33, n. 69, p. 196–219, 2020. [Link](http://dx.doi.org/10.1590/S2178-14942020000100011).
@@ -162,6 +168,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
+- [Slides da aula 6](https://ericbrasil.com.br/hd-ufrrj/aulas/6)
 - Ferramentas
     - [pyHDB](ericbrasil.com.br/pyhdb) - Biblioteca Python para coleta de dados da Hemeroteca Digital Brasileira
     - [Ferramentas Scielo v2](https://labhdufba.github.io/ferramentas_scielo_v2/) - Ferramentas para coleta e organização de dados da SciELO
@@ -181,6 +188,10 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 |:----:|:----------:|:-------------------------------------------------------------|
 | 7    | 01/10/2025 | Codificação na geração, classificação e análise de informação histórica |
 
+**Material de apoio**
+
+- [Slides da aula 7](https://ericbrasil.com.br/hd-ufrrj/aulas/7)
+
 **Bibliografia Básica**
 
 - BLOCH, Marc. **Apologia da história ou o ofício do historiador**. Rio de Janeiro: Jorge Zahar, 2001. Pp. 51-87
@@ -197,6 +208,10 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 8    | 08/10/2025 | Oficina III: OCR e leitura distante com NLP para a História |
+
+**Material de apoio**
+
+- [Slides da aula 8](https://ericbrasil.com.br/hd-ufrrj/aulas/8)
 
 **Repositórios e Ferramentas**
 
@@ -242,13 +257,14 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 |:----:|:----------:|:-------------------------------------------------------------|
 | 11   | 29/10/2025 | Oficina IV: Inteligência Artificial - conceitos e usos |
 
+**Material de apoio**
+
+- [Slides da aula 11](https://ericbrasil.com.br/hd-ufrrj/aulas/11)
+- LLM: A tecnologia por trás da IA textual - [Youtube](https://www.youtube.com/watch?v=dqTZCknuctk).
+
 **Bibliografia Complementar**
 
 - TURING, A. M. I.—COMPUTING MACHINERY AND INTELLIGENCE. Mind, v. LIX, n. 236, p. 433–460, 1 out. 1950. [Link](https://courses.cs.umbc.edu/471/papers/turing.pdf)
-
-**Material de apoio**
-
-- LLM: A tecnologia por trás da IA textual - [Youtube](https://www.youtube.com/watch?v=dqTZCknuctk).
 
 ### Semana 12
 
@@ -271,6 +287,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 
 **Material de apoio**
 
+- [Slides da aula 13](https://ericbrasil.com.br/hd-ufrrj/aulas/13)
 - Ollama: [https://ollama.com/](https://ollama.com/)
 - O que é o Ollama? - [Youtube](https://www.youtube.com/watch?v=5RIOQuHOihY)
 
@@ -278,6 +295,10 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
 | 14   | 19/11/2025 | Ensino de história, história pública e divulgação num mundo de IAs |
+
+**Material de apoio**
+
+- [Slides da aula 14](https://ericbrasil.com.br/hd-ufrrj/aulas/14)
 
 **Bibliografia Básica**
 
@@ -291,11 +312,7 @@ A disciplina tem como objetivo analisar o impacto das transformações tecnológ
 ### Semana 15
 | Aula | Data       | Tema |
 |:----:|:----------:|:-------------------------------------------------------------|
-| 15   | 26/11/2025 | Oficina VI: a definir |
-
-
-**Material de apoio**
-- EM BREVE
+| 15   | 26/11/2025 | Participação da 2ª Semana de Humanidades digitaisda UFBA |
 
 ---
 
